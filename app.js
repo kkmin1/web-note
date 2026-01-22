@@ -606,6 +606,10 @@ class KeepNotes {
     async syncAllWithRepo() {
         if (!this.repoSync) return alert('설정이 필요합니다.');
         alert('순차적으로 저장됩니다. (백그라운드)');
+
+        // Sync labels first
+        await this.repoSync.saveLabels(this.labels);
+
         for (const note of this.notes) {
             await this.repoSync.saveNote(note);
         }
@@ -614,14 +618,42 @@ class KeepNotes {
 
     async loadAllFromRepo() {
         if (!this.repoSync) return alert('설정이 필요합니다.');
-        const notes = await this.repoSync.loadAll();
-        for (const note of notes) {
-            await window.keepDB.put('notes', note);
+        alert('데이터를 불러오는 중입니다. 잠시만 기다려 주세요...');
+
+        // 1. Try to load from bundle first (One request for everything)
+        const bundle = await this.repoSync.loadBundle();
+
+        if (bundle) {
+            // Load labels from bundle
+            if (bundle.labels) {
+                for (const label of bundle.labels) {
+                    await window.keepDB.put('labels', label);
+                }
+            }
+            // Load notes from bundle
+            if (bundle.notes) {
+                for (const note of bundle.notes) {
+                    await window.keepDB.put('notes', note);
+                }
+            }
+        } else {
+            // 2. Fallback to individual requests (Slow)
+            const labels = await this.repoSync.loadLabels();
+            for (const label of labels) {
+                await window.keepDB.put('labels', label);
+            }
+            const notes = await this.repoSync.loadAll();
+            for (const note of notes) {
+                await window.keepDB.put('notes', note);
+            }
         }
+
         await this.loadData();
+        this.renderLabels();
         this.renderNotes();
-        alert('불러오기 완료!');
+        alert('모든 데이터를 성공적으로 불러왔습니다!');
     }
+    ivory
 
     // ========================================================================
     // Helpers

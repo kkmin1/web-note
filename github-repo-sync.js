@@ -98,8 +98,56 @@ class RepoSync {
         return this.uploadFile(path, cleanBase64, `Upload media: ${filename}`, true);
     }
 
-    // Load all notes from repo (Initial setup)
+    // Save all labels
+    async saveLabels(labels) {
+        const path = `data/labels.json`;
+        return this.uploadFile(path, JSON.stringify(labels, null, 2), `Update labels`);
+    }
+
+    // Load labels
+    async loadLabels() {
+        const url = `${this.apiUrl}/repos/${this.repo}/contents/data/labels.json`;
+        try {
+            const res = await fetch(url, {
+                headers: { 'Authorization': `token ${this.token}` }
+            });
+            if (!res.ok) return [];
+            const data = await res.json();
+            const contentRes = await fetch(data.download_url);
+            return await contentRes.json();
+        } catch (e) {
+            console.error('Failed to load labels from repo', e);
+            return [];
+        }
+    }
+
+    // Load everything from a single bundle for speed
+    async loadBundle() {
+        const url = `${this.apiUrl}/repos/${this.repo}/contents/data/bundle.json`;
+        try {
+            const res = await fetch(url, {
+                headers: { 'Authorization': `token ${this.token}` }
+            });
+            if (!res.ok) return null;
+            const data = await res.json();
+            const contentRes = await fetch(data.download_url);
+            return await contentRes.json();
+        } catch (e) {
+            console.error('Failed to load bundle from repo', e);
+            return null;
+        }
+    }
+
+    // Load all notes from repo (Initial setup - fallback to individual files)
     async loadAll() {
+        // 1. Try bundle first (Fast!)
+        const bundle = await this.loadBundle();
+        if (bundle && bundle.notes) {
+            console.log('Loaded from bundle');
+            return bundle.notes;
+        }
+
+        // 2. Fallback to individual files (Slow!)
         const url = `${this.apiUrl}/repos/${this.repo}/contents/data/notes`;
         try {
             const res = await fetch(url, {
