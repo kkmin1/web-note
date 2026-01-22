@@ -2,6 +2,10 @@
 class RepoSync {
     constructor(token, repo) {
         this.token = token;
+        // Sanitize repo: if user pasted full URL, extract 'username/repo'
+        if (repo.includes('github.com/')) {
+            repo = repo.split('github.com/')[1].replace(/\/$/, '');
+        }
         this.repo = repo; // Format: 'username/repo'
         this.apiUrl = 'https://api.github.com';
     }
