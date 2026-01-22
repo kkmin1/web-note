@@ -594,8 +594,12 @@ class KeepNotes {
 
     async setupGitHubSync() {
         const token = prompt('GitHub Personal Access Token을 입력하세요:\n\n1. github.com/settings/tokens 에서 생성\n2. "repo" 권한 체크 (중요!)\n3. 생성된 토큰 복사');
-        const repo = prompt('대상 Repository 이름을 입력하세요:\n\n예시: 사용자명/저장소명\n(주의: GitHub에 저장소를 미리 만드셔야 합니다)');
+        let repo = prompt('대상 Repository 이름을 입력하세요:\n\n예시: 사용자명/저장소명\n(주의: GitHub에 저장소를 미리 만드셔야 합니다)');
         if (token && repo) {
+            // Sanitize: extract 'username/repo' if full URL is given
+            if (repo.includes('github.com/')) {
+                repo = repo.split('github.com/')[1].replace(/\/$/, '');
+            }
             await window.keepDB.put('settings', { id: 'githubToken', value: token });
             await window.keepDB.put('settings', { id: 'githubRepo', value: repo });
             this.repoSync = new RepoSync(token, repo);
