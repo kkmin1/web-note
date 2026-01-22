@@ -593,17 +593,24 @@ class KeepNotes {
     // ========================================================================
 
     async setupGitHubSync() {
-        const token = prompt('GitHub Personal Access Token을 입력하세요:\n\n1. github.com/settings/tokens 에서 생성\n2. "repo" 권한 체크 (중요!)\n3. 생성된 토큰 복사');
-        let repo = prompt('대상 Repository 이름을 입력하세요:\n\n예시: 사용자명/저장소명\n(주의: GitHub에 저장소를 미리 만드셔야 합니다)');
-        if (token && repo) {
-            // Sanitize: extract 'username/repo' if full URL is given
-            if (repo.includes('github.com/')) {
-                repo = repo.split('github.com/')[1].replace(/\/$/, '');
+        try {
+            const token = prompt('GitHub Personal Access Token을 입력하세요:\n\n1. github.com/settings/tokens 에서 생성\n2. "repo" 권한 체크 (중요!)\n3. 생성된 토큰 복사');
+            let repo = prompt('대상 Repository 이름을 입력하세요:\n\n예시: 사용자명/저장소명\n(주의: GitHub에 저장소를 미리 만드셔야 합니다)');
+
+            if (token && repo) {
+                // Sanitize: extract 'username/repo' if full URL is given
+                if (repo.includes('github.com/')) {
+                    repo = repo.split('github.com/')[1].replace(/\/$/, '').replace(/\.git$/, '');
+                }
+                await window.keepDB.put('settings', { id: 'githubToken', value: token });
+                await window.keepDB.put('settings', { id: 'githubRepo', value: repo });
+                this.repoSync = new RepoSync(token, repo);
+                console.log('GitHub sync configured:', repo);
+                alert('설정 완료!');
             }
-            await window.keepDB.put('settings', { id: 'githubToken', value: token });
-            await window.keepDB.put('settings', { id: 'githubRepo', value: repo });
-            this.repoSync = new RepoSync(token, repo);
-            alert('설정 완료!');
+        } catch (e) {
+            console.error('Setup failed', e);
+            alert('설정 중 오류가 발생했습니다: ' + e.message);
         }
     }
 
@@ -621,41 +628,50 @@ class KeepNotes {
     }
 
     async loadAllFromRepo() {
-        if (!this.repoSync) return alert('설정이 필요합니다.');
-        alert('데이터를 불러오는 중입니다. 잠시만 기다려 주세요...');
+        try {
+            if (!this.repoSync) return alert('설정이 필요합니다.');
+            console.log('Starting load from repo...');
+            alert('데이터를 불러오는 중입니다. 잠시만 기다려 주세요...');
 
-        // 1. Try to load from bundle first (One request for everything)
-        const bundle = await this.repoSync.loadBundle();
+            // 1. Try to load from bundle first (One request for everything)
+            const bundle = await this.repoSync.loadBundle();
 
-        if (bundle) {
-            // Load labels from bundle
-            if (bundle.labels) {
-                for (const label of bundle.labels) {
+            if (bundle) {
+                console.log('Bundle found, importing...');
+                // Load labels from bundle
+                if (bundle.labels && Array.isArray(bundle.labels)) {
+                    for (const label of bundle.labels) {
+                        await window.keepDB.put('labels', label);
+                    }
+                }
+                // Load notes from bundle
+                if (bundle.notes && Array.isArray(bundle.notes)) {
+                    for (const note of bundle.notes) {
+                        await window.keepDB.put('notes', note);
+                    }
+                }
+            } else {
+                console.log('Bundle NOT found, falling back to individual files...');
+                // 2. Fallback to individual requests (Slow)
+                const labels = await this.repoSync.loadLabels();
+                for (const label of labels) {
                     await window.keepDB.put('labels', label);
                 }
-            }
-            // Load notes from bundle
-            if (bundle.notes) {
-                for (const note of bundle.notes) {
+                const notes = await this.repoSync.loadAll();
+                for (const note of notes) {
                     await window.keepDB.put('notes', note);
                 }
             }
-        } else {
-            // 2. Fallback to individual requests (Slow)
-            const labels = await this.repoSync.loadLabels();
-            for (const label of labels) {
-                await window.keepDB.put('labels', label);
-            }
-            const notes = await this.repoSync.loadAll();
-            for (const note of notes) {
-                await window.keepDB.put('notes', note);
-            }
-        }
 
-        await this.loadData();
-        this.renderLabels();
-        this.renderNotes();
-        alert('모든 데이터를 성공적으로 불러왔습니다!');
+            console.log('Data import finished, refreshing UI...');
+            await this.loadData();
+            this.renderLabels();
+            this.renderNotes();
+            alert('모든 데이터를 성공적으로 불러왔습니다!');
+        } catch (e) {
+            console.error('Load failed', e);
+            alert('데이터를 불러오는 중 오류가 발생했습니다:\n' + e.message);
+        }
     }
 
     // ========================================================================
