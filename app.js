@@ -67,10 +67,10 @@ class KeepNotes {
 
             // Check reminders every minute
             setInterval(() => this.checkReminders(), 60000);
-            console.log('Keep Notes (High-Cap) Initialized');
+            console.log('Keep Notes (High-Cap) Initialized [v1.0.2]');
         } catch (e) {
             console.error('Initialization failed', e);
-            alert('초기화 실패: ' + e);
+            alert('초기화 실패 (콘솔 확인): ' + e.message);
         }
     }
 
@@ -629,6 +629,7 @@ class KeepNotes {
 
     async loadAllFromRepo() {
         try {
+            console.log('Load All Button Clicked');
             if (!this.repoSync) return alert('설정이 필요합니다.');
             console.log('Starting load from repo...');
             alert('데이터를 불러오는 중입니다. 잠시만 기다려 주세요...');
