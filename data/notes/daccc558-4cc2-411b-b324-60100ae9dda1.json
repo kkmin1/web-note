@@ -1,0 +1,16 @@
+{
+  "id": "daccc558-4cc2-411b-b324-60100ae9dda1",
+  "title": "산술평균 vs 기하평균",
+  "content": "현실은 곱의 법칙 \n\n전체가 성공해야 성공이다. 부품 하나라도 0(실패)이면 전체는 0(실패)",
+  "color": "default",
+  "labels": [
+    "a57425d6-bf5f-4849-8870-5e88e53e4b54",
+    "5a9d5fc2-ea5e-4fcc-9ea8-e90e5cafee05"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-12-01T18:41:23.844000",
+  "updatedAt": "2023-02-28T08:37:54.230000"
+}

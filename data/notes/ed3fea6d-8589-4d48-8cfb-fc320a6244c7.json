@@ -1,0 +1,16 @@
+{
+  "id": "ed3fea6d-8589-4d48-8cfb-fc320a6244c7",
+  "title": "charge",
+  "content": "탄약량",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d",
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-10-21T07:38:15.305000",
+  "updatedAt": "2023-10-21T07:38:15.305000"
+}

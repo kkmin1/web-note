@@ -1,0 +1,15 @@
+{
+  "id": "81d68c7e-0c2e-45c4-ae6b-9c62806130d3",
+  "title": "app AWEBSERVER 사용법",
+  "content": "사용자 지정 폴더는 document root에서 설정\n\n브라우저에서 \n\"http://192.168.219.102:8080/파일명\"\n 으로 입력하여 실행\n\nhtml, php 파일 실행 가능\n\n파일 갱신에 에러, \nnode.js로 웹서버 사용",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-03-28T18:07:46.865000",
+  "updatedAt": "2021-04-25T13:39:33.430000"
+}

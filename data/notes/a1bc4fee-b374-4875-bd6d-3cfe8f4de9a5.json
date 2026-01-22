@@ -1,0 +1,15 @@
+{
+  "id": "a1bc4fee-b374-4875-bd6d-3cfe8f4de9a5",
+  "title": "ammo check",
+  "content": "alt-shot  때 ammo 용량 체크\n\nhttps://zdoom.org/wiki/CheckInventory\nhttps://zdoom.org/wiki/A_JumpIfNoAmmo",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2024-01-15T19:44:02.081000",
+  "updatedAt": "2024-01-15T19:46:33.314000"
+}

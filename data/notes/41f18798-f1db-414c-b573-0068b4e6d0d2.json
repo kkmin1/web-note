@@ -1,0 +1,17 @@
+{
+  "id": "41f18798-f1db-414c-b573-0068b4e6d0d2",
+  "title": "다운로드 폴더 날짜별 분류 없애기",
+  "content": "폴더 빈 영역을 우 클릭하여 [분류 방법 - 없음]을 클릭하면 예전 방식으로 볼 수 있습니다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "cfb0bd80-b93f-470e-8dbd-0ec7c53a7757",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-04-09T08:18:42.935000",
+  "updatedAt": "2023-04-11T00:25:05.095000"
+}

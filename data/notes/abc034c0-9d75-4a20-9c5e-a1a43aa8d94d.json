@@ -1,0 +1,15 @@
+{
+  "id": "abc034c0-9d75-4a20-9c5e-a1a43aa8d94d",
+  "title": "disinformation",
+  "content": "허위정보",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-02-21T13:09:25.587000",
+  "updatedAt": "2025-02-21T13:29:28.445000"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dba57f86-c2e3-4dae-963f-b3aaff521480",
+  "title": "로미오 - 줄리엣 사랑방정식",
+  "content": "http://www.math.ualberta.ca/~devries/crystal/ContinuousRJ/introduction.html\n\n스트로가츠\n\n(가정)\n각자는 자신의 감정뿐만 아니라 타인의 감정에 영향을 받는다.\n\nR(t) : 시간별 로미오의 감정\nJ(t) : 시간별 줄리엣의 감정\n\ndR/dt = aJ + bR\ndJ/dt = cR + dJ\n(a,b,c,d>0)\n\nhttps://m.blog.naver.com/PostView.nhn?blogId=guarneri&logNo=30019241205&proxyReferer=https:%2F%2Fm.blog.naver.com%2FPostView.nhn%3FblogId%3Dguarneri%26logNo%3D30021744003%26proxyReferer%3Dhttps:%252F%252Fwww.google.com%252F",
+  "color": "default",
+  "labels": [
+    "a57425d6-bf5f-4849-8870-5e88e53e4b54",
+    "962773d3-36bd-4ad9-ae7c-a7d4dedcca9a"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-03-02T01:27:21.279000",
+  "updatedAt": "2023-02-11T11:17:34.402000"
+}

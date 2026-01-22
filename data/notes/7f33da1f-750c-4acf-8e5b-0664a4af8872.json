@@ -1,0 +1,15 @@
+{
+  "id": "7f33da1f-750c-4acf-8e5b-0664a4af8872",
+  "title": "A_ClearTarget - ZDoom Wiki",
+  "content": "https://zdoom.org/wiki/A_ClearTarget\n\nhttps://zdoom.org/wiki/A_SeekerMissile\n\nhttps://zdoom.org/wiki/A_Die\n\nhttps://zdoom.org/wiki/A_FaceTracer\n\nhttps://zdoom.org/wiki/A_Wander\n\nbat \n\nhttps://zdoom.org/wiki/Classes:FastProjectile\n\nhttps://zdoom.org/wiki/Classes:IceChunk\n\nhttps://forum.zdoom.org/viewtopic.php?f=3&t=2306  : breakable glass\n\n\nhttps://zdoom.org/wiki/CheckActorFloorTexture",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-01-10T12:42:18.795000",
+  "updatedAt": "2020-01-27T18:27:16.859000"
+}

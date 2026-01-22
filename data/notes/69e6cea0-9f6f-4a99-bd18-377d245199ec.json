@@ -1,0 +1,15 @@
+{
+  "id": "69e6cea0-9f6f-4a99-bd18-377d245199ec",
+  "title": "put out to pasture",
+  "content": "가축을 목초지에 풀어놓는다\n은퇴시키다, 더 이상 중요한 일을 맡기지 않다.",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-08-09T23:12:56.472000",
+  "updatedAt": "2025-10-15T09:05:15.162000"
+}

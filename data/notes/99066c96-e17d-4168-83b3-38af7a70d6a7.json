@@ -1,0 +1,15 @@
+{
+  "id": "99066c96-e17d-4168-83b3-38af7a70d6a7",
+  "title": "concentrate",
+  "content": "정광\n\n구리, 니켈, 아연 같은 금속을 채굴할 때 처음부터 순금속이 나오는 것이 아니라, 광석(ore)을 분쇄·부유선별 등으로 처리해 금속 성분을 고농도로 모아 놓은 중간 산물이 만들어집니다. 이것을 정광(concentrate)이라고 합니다.\n\n정리하면 공정 단계는 다음과 같습니다.\n광석(ore) → 선광 → 정광(concentrate) → 제련(smelting) → 정제(refining) → 순금속\n\n구리 정광의 경우 보통 구리 함량이 약 20~30% 정도이며, 나머지는 불순물과 황 성분 등입니다. \n이 정광을 제련소가 받아서 고온에서 녹이고 화학적으로 처리해 순동으로 만듭니다.\n\nsmelters paying miners to receive concentrate\n제련소가 구리 정광이라는 원료를 확보하기 위해 오히려 광산에 돈을 지불하는 상태. \n이는 정광이 귀하고 제련 능력이 남아도는 극단적인 수급 불균형을 뜻합니다.",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2026-01-10T20:20:15.650000",
+  "updatedAt": "2026-01-10T20:20:15.650000"
+}

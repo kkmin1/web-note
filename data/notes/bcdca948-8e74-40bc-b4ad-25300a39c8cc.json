@@ -1,0 +1,15 @@
+{
+  "id": "bcdca948-8e74-40bc-b4ad-25300a39c8cc",
+  "title": "defamation",
+  "content": "명예훼손, 개인이나 단체의 명예를 훼손하는 거짓된 진술을 퍼뜨리는 행위\n\n구두로 행해지면 'slander'(비방), \n서면으로 행해지면 'libel'(명예훼손)",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-11-22T18:01:38.001000",
+  "updatedAt": "2025-11-25T07:41:45.737000"
+}

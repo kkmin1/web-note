@@ -1,0 +1,15 @@
+{
+  "id": "80441a30-33c4-4a35-8a13-532ce30c34db",
+  "title": "atom, vs code",
+  "content": "자동정렬 : Ctrl + K + F\n블럭이동 좌  : Ctrl + [\n블럭이동 우  : Ctrl + ]\n\nvscode : \nview in broswer : ctrl + F1 \n모든 언어 block comment : ctrl + /\nlive server : alt + l + o\n\nrun vs code in administrator\n노틸러스를 관리자 모드로 실행한 후 파일을 vs code로 연다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-04-06T15:44:16.852000",
+  "updatedAt": "2019-04-06T15:44:16.852000"
+}

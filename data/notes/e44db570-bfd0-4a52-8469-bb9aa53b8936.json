@@ -1,0 +1,17 @@
+{
+  "id": "e44db570-bfd0-4a52-8469-bb9aa53b8936",
+  "title": "척도없는 연결망 - 허브이론",
+  "content": "랜덤 네트워크 - SIR 전염병 모형에 따라 확산/소멸간의 전염율 임계값이 존재\n\nscale free network - SIR 전염병 모형의 임계값이 무한대 -> 컴퓨터 바이러스를 근절하기 어려움\n\n⇨ 무작위 대상 공격이 아닌 허브를 공략함으로써 임계값을 유한으로 낮출 수 있다.\n\n※ 핵심(두목)만 공략하면 나머지는 자연히 소멸\n\n멱함수의 지수인 결합수(degree exponent)가 3이하이면 전염률의 임계값이 없다. 결합수를 이용한 targeted immunization strategy는 이론적인 측면에서 보면 흥미로운 아이디어이지만, 실질적인 적용 가능성의 측면에서 커다란 문제점을 내포하고 있다. Targeted immunization strategy를 적용하기 위해서는 super-spreader의 역할을 하는 결합수가 큰 hub들을 모두 찾아내야 한다. 하지만 이는 네트워크의 전체 구조에 대한 완벽한 정보가 있을 때에만 가능한 일이다. 대부분의 경우에 그렇듯이, 전염을 매개하는 네트워크의 전체 구조가 완벽하게 알려지지 않고 각 vertex 주위의 국소적인 구조만 알려져 있는 경우에는 targeted \nimmunization strategy를 적용할 수 없다.",
+  "color": "default",
+  "labels": [
+    "a57425d6-bf5f-4849-8870-5e88e53e4b54",
+    "bb501844-d7d7-46e2-96f8-0a8010c3c2de",
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-02-09T10:50:27.139000",
+  "updatedAt": "2023-02-28T08:37:54.213000"
+}

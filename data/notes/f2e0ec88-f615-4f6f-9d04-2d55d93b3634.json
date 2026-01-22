@@ -1,0 +1,17 @@
+{
+  "id": "f2e0ec88-f615-4f6f-9d04-2d55d93b3634",
+  "title": "Love Equation",
+  "content": "Strogatz (1994) considers a love affair between Romeo and Juliet, where R(t) is Romeo’s love (or hate if negative) for Juliet at time t and J(t) is Juliet’s love for Romeo. The simplest model is linear with \n \ndR/dt = aR + bJ \n                                    (1) \ndJ/dt = cR+ dJ\n\n \nwhere a and b specify Romeo’s “romantic style,” and c and d specify Juliet’s style. The parameter a describes the extent to which Romeo is encouraged by his own feelings, and b is the extent to which he is encouraged by Juliet’s feelings. Gottman et al. (2002) use the term “behavioral inertia” for the former and “influence function” for the latter,  although the inertia is greatest when a = 0. The resulting dynamics are two-dimensional, governed by the initial conditions and the four parameters, which may be positive or negative. \nA similar linear model has been proposed by Rinaldi (1998a) in which a constant term is added to each of the derivatives in Eq. 1 to\naccount for the appeal (or repulsion if negative) that each partner presents to the other in the absence of other feelings. Such a model is more realistic since it allows feelings to grow from a state of indifference and provides an equilibrium not characterized by complete apathy. \nHowever, it does so at the expense of introducing two additional parameters. While the existence of a non-apathetic equilibrium may be very important to the individuals involved, it does not alter the dynamics \nother than to move the origin of the RJ state space.\nRomeo can exhibit one of four romantic styles depending on the signs of a and b, with names adapted from those suggested by Strogatz \n(1994) and his students: \n\n1. Eager beaver: a > 0, b > 0 (Romeo is encouraged by his own feelings as well as Juliet’s.) \n2. Narcissistic nerd: a > 0, b < 0 (Romeo wants more of what he feels but retreats from Juliet’s feelings.) \n3. Cautious (or secure) lover: a < 0, b > 0 (Romeo retreats from his own feelings but is encouraged by Juliet’s.) \n4. Hermit: a < 0, b < 0 (Romeo retreats from his own feelings as well as Juliet’s.)\n\nCautious lovers are the most common type of people.\nJuliet can be classified in the exact same way, with a corresponding to d and b corresponding to c.\n\nhttps://steemit.com/steemstem/@omstavan/love-affairs-a-mathematical-model-using-differential-equations\n\nhttps://www.r-bloggers.com/2019/08/love-affairs-and-linear-differential-equations/",
+  "color": "default",
+  "labels": [
+    "a57425d6-bf5f-4849-8870-5e88e53e4b54",
+    "962773d3-36bd-4ad9-ae7c-a7d4dedcca9a",
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-03-21T08:29:45.356000",
+  "updatedAt": "2023-03-27T13:12:18.335000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ca098481-75e9-4337-948e-7275e8669ad2",
+  "title": "완전베이지안균형 예",
+  "content": "Example: Job Market Signalling In Spence’s original example, player 1 is a student or worker. Player 2 is the “competitive” labor market. The worker’s “type” is his ability and his action is the level of education he chooses. The labor market observes the worker’s education (but not his ability) and offers a competitive wage equal to his expected ability conditional on education. The worker would like to use his education choice to “signal” that he is of high ability. \n\nExample: Initial Public Offerings Player 1 is the owner of a private f irm, while Player 2 is the set of potential investors. The entrepreneur’s “type” is the future profitability of his company. He has to decide what fraction of the company to sell to outside investors and the price at which to offer the shares (so a1 isbothaquantityandaprice). The investors respond by choosing whether to accept or reject the entrepeneur’s offer. Here, the entrepeneur would like to signal that the company is likely to be profitable. \n\nExample: Monetary Policy Player 1 is the Federal Reserve. It’s type is its preferences for inflation versus unemployment. In the first period, itchoosesaninflationlevela1 ∈ A1. Player 2 is the firms in the economy. They observe first period inflation and form expectations about second period inflation, denoted a2 ∈ A2. Here, the Fed wants to signal a distaste for inflation so that firms will expect prices not to rise too much. \n\nExample: Pretrial Negotiation Player1istheDefendantinacivillawsuit, while Player 2 is the Plaintiff. The Defendant has private information about his liability (this is θ). He makes a settlement offer a1 ∈ A1. The Plaintiff then accepts or rejects this offer, so A2 = {A,R}.Ifthe Plaintiff rejects, the parties go to trial. Here, the Defendant wants to signal that he has a strong case.",
+  "color": "default",
+  "labels": [
+    "4c2e72b8-0cf2-48f3-b5fa-5ad39f6b68ea"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-09-19T08:27:11.280000",
+  "updatedAt": "2020-09-19T08:27:54.895000"
+}

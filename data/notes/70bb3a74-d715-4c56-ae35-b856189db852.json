@@ -1,0 +1,15 @@
+{
+  "id": "70bb3a74-d715-4c56-ae35-b856189db852",
+  "title": "react 강좌",
+  "content": "node.js 설치\n\n> npx create-react-app Myfolder\n\n> Myfolder로 이동\n> npm start 혹은 npm run start\n\n기본 파일\nMyfolder/public/index.html\n\n내용 수정\nMyfolder/src/App.js \nMyfolder/src/App.css\n\nhttps://online.codingapple.com/course/react-basic/",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-25T19:25:01.887000",
+  "updatedAt": "2021-04-26T08:14:51.151000"
+}

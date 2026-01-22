@@ -1,0 +1,13 @@
+{
+  "id": "33b5a7ee-3115-4255-b0ff-045e3054015e",
+  "title": "ecl(common lisp)",
+  "content": "1. 컴파일 및 실행\necl --load hello.lisp\n또는\n(load \"hello.lisp\")\n\n2. quit ecl\n(quit)",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2018-08-10T21:14:19.112000",
+  "updatedAt": "2018-08-10T21:25:17.370000"
+}

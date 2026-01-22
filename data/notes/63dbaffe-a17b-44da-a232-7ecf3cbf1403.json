@@ -1,0 +1,18 @@
+{
+  "id": "63dbaffe-a17b-44da-a232-7ecf3cbf1403",
+  "title": "앨런 튜링(Alan Turing)",
+  "content": "“과학은 미분 방정식이다. 종교는 경계 조건이다.”\nScience is a differential equation. Religion is a boundary condition.\n\n여기서 우주의 모든 작동 원리는 미분 방정식에 의해서 기술된다는 사실을 기억하자. 다시 말해서, 뉴턴의 운동 방정식, 맥스웰의 방정식, 슈뢰딩거 방정식, 아인슈타인 방정식 등은 모두 미분 방정식이다. 그런데 미분 방정식을 풀기 위해서는 경계 조건, 혹은 초기 조건이 필요하다. 경계 및 초기 조건은 외부에서 주어지는 것이므로 과학의 영역이 아니다. 튜링이 말했듯이, 이것은 종교의 영역일지 모른다.\n\n https://horizon.kias.re.kr/19227/#:~:text=%EA%B4%80%EB%A0%A8%ED%95%B4%EC%84%9C%20%EC%95%A8%EB%9F%B0%20%ED%8A%9C%EB%A7%81,%EC%A2%85%EA%B5%90%EC%9D%98%20%EC%98%81%EC%97%AD%EC%9D%BC%EC%A7%80%20%EB%AA%A8%EB%A5%B8%EB%8B%A4.",
+  "color": "default",
+  "labels": [
+    "0e59aec6-754e-4c02-893c-70f18f19c937",
+    "518afb00-3f62-4da5-9663-d9ad9708e63f",
+    "b8f7bd7a-d946-4e58-a510-e3cdc8a3f1a6",
+    "9dde1e04-dd34-4201-bce0-c559b528d7a5"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-10-28T10:44:24.624000",
+  "updatedAt": "2025-04-20T08:17:55.252000"
+}

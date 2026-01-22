@@ -1,0 +1,17 @@
+{
+  "id": "64905c52-6089-4e49-8da9-fdba5f2f94c6",
+  "title": "거미집 모형",
+  "content": "경제학에서 거미집(cobweb) 모형이라고 알지.\n사용자로부터 임의의 수요함수, 공급함수를 입력받아 cobweb 그래프를 그리고 싶어. 웹 앱을 만들어라. HTML에 js를 포함시켜. mathjax를 사용하여 모든 수식을 렌더링해. 그래프는 chart.js를 적용해.",
+  "color": "default",
+  "labels": [
+    "898f43eb-c79c-4781-9c09-9e88a458c8c7",
+    "a57425d6-bf5f-4849-8870-5e88e53e4b54",
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-02-21T09:23:21.140000",
+  "updatedAt": "2025-02-21T14:26:54.981000"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "21ad1dac-b492-4873-b9f4-1c7cc5df1594",
+  "title": "grok 문제",
+  "content": "x -> grok : x로 로그인\ngrok 앱 : 구글로 로그인\n\n내용이 서로 다르다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "cfb0bd80-b93f-470e-8dbd-0ec7c53a7757",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-12-10T17:25:10.305000",
+  "updatedAt": "2025-12-10T17:27:48.338000"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "7698be8d-8d09-4498-a2a7-abef39596bf6",
+  "title": "유튜브 쇼츠 전체화면",
+  "content": "URL에 있는 \"shorts/\" 부분을 찾아서 \"watch?v=\"로 변경\n\nF 키",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "cfb0bd80-b93f-470e-8dbd-0ec7c53a7757",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-11-09T13:14:12.077000",
+  "updatedAt": "2025-11-09T13:15:05.203000"
+}

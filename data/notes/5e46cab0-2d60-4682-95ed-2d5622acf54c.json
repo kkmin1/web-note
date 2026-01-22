@@ -1,0 +1,15 @@
+{
+  "id": "5e46cab0-2d60-4682-95ed-2d5622acf54c",
+  "title": "体調(たいちょう)",
+  "content": "몸의 상태, 컨디션.",
+  "color": "default",
+  "labels": [
+    "93f91867-35e9-4fb5-9677-d4aafd3f103d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-11-06T08:39:54.876000",
+  "updatedAt": "2025-11-06T08:40:22.227000"
+}

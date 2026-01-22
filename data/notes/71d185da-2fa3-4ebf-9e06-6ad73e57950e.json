@@ -1,0 +1,15 @@
+{
+  "id": "71d185da-2fa3-4ebf-9e06-6ad73e57950e",
+  "title": "Intersecting chords theorem",
+  "content": "![image](media/17a52671c3c.a85fa832da01577e.jpg)\n\n\n\nThe proof follows easily from the similarity of triangles ABP and CDP that is a consequence of the equality of their angles:\n\n \t∠BAD = ∠BCD,\tas inscribed angles subtended by the same chord BD,\n \t∠ABC = ∠ADC,\tas inscribed angles subtended by the same chord AC,\n \t∠APB = ∠CPD,\tas a pair of vertical angles.\n(Vertical angles are formed by the same intersecting lines, but the opposite rays - the halves of the lines - cut off by their point of intersection.)\n\nFrom the similarity of triangles ABP and CDP, we obtain the proportion:\n\n(*)\tAP/CP = BP/DP = AB/CD.\nThe first identity (AP/CP = BP/DP) leads directly to the Intersecting Chords Theorem: AP·DP = BP·CP.",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-06-28T20:32:45.407000",
+  "updatedAt": "2023-03-27T13:35:00.379000"
+}

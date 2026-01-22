@@ -1,0 +1,15 @@
+{
+  "id": "d9d69ea5-24df-4a85-bfe0-e1db368c4094",
+  "title": "영상 촬영",
+  "content": "Optical(광학 영상): 렌즈를 이용한 일반 필름식 카메라. 기지에 귀환해서 필름을 현상해야 한다.\n\nEO/IR: Electric Optical 전자 광학(비디오 카메라)/ IR은 적외선 카메라를 말함. 보통 EO/IR 방식은 실시간 또는 준실시간으로 동영상 또는 정지영상을 무선 데이터링크를 통해 지상 통제소에 전송하는 방식이다. EO는 주간/IR는 야간 촬영 \n\nSAR: 합성개구레이다 합성개구레이다는 구름을 통과하며 지하까지 투시할 수 있으나, 일반 적인 지상 물체 관측에는 EO 카메라 보다 훨씬 선명하지 못하다. 레이다 영상이다.",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-02-06T23:54:50.990000",
+  "updatedAt": "2020-02-07T00:14:41.039000"
+}

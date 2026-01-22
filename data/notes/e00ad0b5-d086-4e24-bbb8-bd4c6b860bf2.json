@@ -1,0 +1,15 @@
+{
+  "id": "e00ad0b5-d086-4e24-bbb8-bd4c6b860bf2",
+  "title": "number",
+  "content": "전화번호",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-07-06T09:20:15.183000",
+  "updatedAt": "2025-07-06T09:20:15.183000"
+}

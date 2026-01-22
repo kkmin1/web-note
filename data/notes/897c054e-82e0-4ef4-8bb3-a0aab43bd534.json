@@ -1,0 +1,15 @@
+{
+  "id": "897c054e-82e0-4ef4-8bb3-a0aab43bd534",
+  "title": "INS(관성항법)",
+  "content": "INS는 가속도계 + 자이로스코프로 기체의 움직임(가속·회전)을 적분하여 위치를 추정합니다.\n문제는 센서가 완벽하지 않다는 것 → **측정 노이즈와 바이어스(편차)**가 시간이 지남에 따라 누적됨.\nGPS(위성항법) 신호가 있으면 주기적으로 INS 위치를 교정해주지만,\n GPS가 재밍·스푸핑 등으로 차단되면 보정 없이 INS 단독 항법을 해야 함.\n\n이동거리 km당 오차율\n전문 군사용 INS : 0.01% 이하 \n민수용/저가 MEMS INS: 0.3~1% 수준 \n\n이동거리    민수용 INS 표적 오차    군용 INS 표적 오차 \n100 km       300 m ~ 1 km 오차        1m\n200 km       600 m ~ 2 km 오차       2m\n500 km      1.5 km ~ 5 km 오차         5m",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-09-13T16:45:31.512000",
+  "updatedAt": "2025-09-13T16:50:42.155000"
+}

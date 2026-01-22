@@ -1,0 +1,15 @@
+{
+  "id": "95104419-114b-4d1e-bc5a-967dd9736b42",
+  "title": "carpet theorem",
+  "content": "![image](media/17a51c99f4c.97441cefe021299c.jpg)\n\n\n\nt : 직사각형 ABCD 면적\n\n▲AND = ½ t\n▲CDM = ½ t\n\nso, ▲AND = ▲CDM\n\n▲CDM = ▲ADM+▲BCM = ▲AND\n\n즉, ▲ADM+▲BCM = ▲AND\n\n양 도형에서 공통부분인 ▲ADP+▲NQR를 빼면\n\n▲ADM + ▲BCM - (▲ADP + ▲NQR)\n=\n▲AND - (▲ADP+▲NQR)\n\n⇒ ▲AMP + ▲BMN + ▲CNR = DPQR\n\n즉 빨강색 부분과 파란색 부분 면적이 같다.",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-06-28T17:43:27.568000",
+  "updatedAt": "2023-12-24T08:18:04.746000"
+}

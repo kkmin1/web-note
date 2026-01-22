@@ -1,0 +1,16 @@
+{
+  "id": "0421f976-c332-4d46-a717-0538bbc4ac20",
+  "title": "github 파일 다운로드/업로드",
+  "content": "다운로드 : https://www.github.com/kkmin1/kkmin/tree/master/code.txt\n\nraw 보기하면 다운로드됨\n\n업로드 : \nhttps://www.github.com/kkmin1/kkmin/tree/master/\n\n휴대폰의 경우 pc화면으로 전환하면 upload 메뉴가 나타남",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-11T16:45:57.222000",
+  "updatedAt": "2023-03-13T11:07:56.526000"
+}

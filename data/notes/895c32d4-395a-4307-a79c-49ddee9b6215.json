@@ -1,0 +1,15 @@
+{
+  "id": "895c32d4-395a-4307-a79c-49ddee9b6215",
+  "title": "역관계",
+  "content": "y = c/x, c 는 상수\n\ny는 x와 역관계로 \nx, y는 서로 사회적, 물리적으로 갈등관계에 있다. \n\n역관계가 발생하는 이유는 두 변수의 곱이 일정하기 때문이다.\n\n즉 xy = c\n\n물리에서 에너지 일정법칙이 있다.\n\n인간세상에서 갈등이 존재하는 이유는 행복의 총량이 일정하기 때문.",
+  "color": "default",
+  "labels": [
+    "962773d3-36bd-4ad9-ae7c-a7d4dedcca9a"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-07-03T20:56:59.802000",
+  "updatedAt": "2023-07-03T20:56:59.802000"
+}

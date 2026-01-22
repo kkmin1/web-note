@@ -1,0 +1,15 @@
+{
+  "id": "0837ec79-8944-42d6-afb3-7cb0cf721cf0",
+  "title": "포식자 희생자 모형",
+  "content": "증가율 = 출산률 - 사망률\n\n(가정)\n희생자 출산률은 일정(a)\n희생자 사망률은 포식자수에 정비례(by)\n\n포식자 사망률은 일정(c)\n포식자 출산률은 희생자수에 정비례(dx)\n\ndx/dt/x = a - by\ndy/dt/y = -c + dx\n(a,b,c,d>0)",
+  "color": "default",
+  "labels": [
+    "962773d3-36bd-4ad9-ae7c-a7d4dedcca9a"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-03-11T21:42:14.466000",
+  "updatedAt": "2019-03-11T21:58:01.584000"
+}

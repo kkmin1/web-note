@@ -1,0 +1,16 @@
+{
+  "id": "752b41c2-56ed-4eb3-a079-ebfe9d944f7d",
+  "title": "우리은행 입출금 확인",
+  "content": "1588-5000 전화후 연결되면 즉시\n\n113 누름\n\n주민번호 6자리\n\n통장번호",
+  "color": "default",
+  "labels": [
+    "cfb0bd80-b93f-470e-8dbd-0ec7c53a7757",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-09-20T16:50:17.415000",
+  "updatedAt": "2022-09-20T16:50:17.415000"
+}

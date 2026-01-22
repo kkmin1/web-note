@@ -1,0 +1,15 @@
+{
+  "id": "a36615ef-a0da-4395-a5c4-813b54d61b19",
+  "title": "Titu's lemma",
+  "content": "다음 등식을 푸시오.\n\nx + y + z=√3\nx² + y² + z² = 1\n\n(풀이)\n\n(Titu's lemma)\nx² + y² + z² ≧(x + y + z)²/3\n등호는 x = y = z 일 때 성립\n\n그런데 문제의 정의에 의해 티투 정리 양변은\n1 = 1 이므로\nx = y = z = √3/3",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-06-28T07:36:20.987000",
+  "updatedAt": "2023-12-24T08:18:04.824000"
+}

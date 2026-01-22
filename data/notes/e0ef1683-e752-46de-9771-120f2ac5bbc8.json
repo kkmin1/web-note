@@ -1,0 +1,15 @@
+{
+  "id": "e0ef1683-e752-46de-9771-120f2ac5bbc8",
+  "title": "damper",
+  "content": "감쇠기\n\nput a damper on\n~을 위축시키다, 흥을 깨다, 찬물을 끼얹다",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-07-19T15:19:58.151000",
+  "updatedAt": "2025-07-19T15:19:58.151000"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "7bb8ded9-46cb-4dac-8a73-bbaa0b3161ee",
+  "title": "지식의 저주(the curse of knowledge)",
+  "content": "자신이 알고 있는 지식을 다른 사람도 알고 있을것 이라는 고정관념에 빠져 나타나는 인식의 왜곡을 뜻합니다. 내가 알고 있으면 저 사람도 당연히 알겠지 라는 편견이 바로 지식의 저주입니다.",
+  "color": "default",
+  "labels": [
+    "898f43eb-c79c-4781-9c09-9e88a458c8c7",
+    "bb501844-d7d7-46e2-96f8-0a8010c3c2de",
+    "51fc321a-6b6f-434a-8658-78fb231eb912"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-04T11:03:27.231000",
+  "updatedAt": "2021-04-04T11:04:15.044000"
+}

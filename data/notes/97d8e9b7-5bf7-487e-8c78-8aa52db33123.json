@@ -1,0 +1,15 @@
+{
+  "id": "97d8e9b7-5bf7-487e-8c78-8aa52db33123",
+  "title": "html 각주 다는 방법",
+  "content": "https://css-tricks.com/a-terrible-way-to-do-footnotes-in-html/\n\nhttps://news.ycombinator.com/item?id=24747376\n\nhttps://codepen.io/WilliamRobertson/pen/ONpWRJ\n\nchatgpt;\n\n민관기\nin html, how can I make popup footnotes?\n\nTo create popup footnotes in HTML, you can use the \"tooltip\" feature. Here's how:\n\nWrap the footnote text in a span element with a class name. For example, <span class=\"footnote\">This is the footnote text.</span>\n\nCreate a superscript number in the text where you want the footnote to appear. For example, <sup>1</sup>\n\nAdd an event listener to the superscript number using JavaScript or jQuery. Here's an example using jQuery:\n\n[javascript]\n$(document).ready(function() {\n  $(\"sup\").hover(function() {\n    var footnoteText = $(this).next(\".footnote\").html();\n    $(this).append('<span class=\"tooltip\">' + footnoteText + '</span>');\n  }, function() {\n    $(this).find(\".tooltip\").remove();\n  });\n});\n\n\n[css]\n.tooltip {\n  display: none;\n  position: absolute;\n  background-color: #fff;\n  border: 1px solid #000;\n  padding: 5px;\n  z-index: 999;\n}\n\nThis code will create a tooltip that appears when the user hovers over the superscript number. The tooltip will contain the footnote text. When the user moves their mouse away from the superscript number, the tooltip will disappear.\n\n\n\n\n\n\nChatGPT Feb 13 Version. Free Research Preview. Our goal is to make AI systems more natural and safe to interact with. Your feedback will help us improve.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-03-06T07:54:11.390000",
+  "updatedAt": "2023-03-06T08:12:52.658000"
+}

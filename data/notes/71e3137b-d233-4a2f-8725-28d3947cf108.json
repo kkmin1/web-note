@@ -1,0 +1,15 @@
+{
+  "id": "71e3137b-d233-4a2f-8725-28d3947cf108",
+  "title": "폭탄의 종류",
+  "content": "HE(High Explosive, 고폭탄) : 작약을 금속제 외피로 둘러싸고 작약 자체의 폭발력 및 외피의 파편 발생에 의한 살상력. 주로 인마 살상용\n \n공중작열 HE(airbust): 시한신관을 사용하여 목표 상공에서 폭발.\n\nHEDP(High Explosive Dual Purpose, 이중목적 고폭탄) : 성형작약 원리 채용, HE탄은 장갑을 두른 표적에 대해서는 큰 효과가 없다. 직각일 경우 최대 50mm의 단일장갑판 관통 능력. 차량 및 경장갑차량 공격에 사용\n\n철갑고폭소이탄(SAPHEI) : 풍산이 개발. 적 항공기 외피를 관통한 뒤 소이제를 확산시키고, 이어 작약을 기폭시켜 파괴효과를 높인 것. 비호 자주대공포 등에 실전배치 됐다.",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-19T07:36:34.446000",
+  "updatedAt": "2023-11-25T07:46:29.332000"
+}

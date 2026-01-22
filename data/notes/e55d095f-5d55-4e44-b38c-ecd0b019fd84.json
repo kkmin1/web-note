@@ -1,0 +1,15 @@
+{
+  "id": "e55d095f-5d55-4e44-b38c-ecd0b019fd84",
+  "title": "ProjectileKickBack",
+  "content": "ProjectileKickBack value\n\nSimilarly to Weapon.KickBack, this affects how far the projectile will push its target upon impact. This property overrides a weapon's kickback for projectiles thrown by weapons.",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-03-01T17:41:00.565000",
+  "updatedAt": "2024-01-15T19:48:41.534000"
+}

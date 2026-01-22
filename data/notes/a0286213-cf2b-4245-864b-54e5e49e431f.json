@@ -1,0 +1,15 @@
+{
+  "id": "a0286213-cf2b-4245-864b-54e5e49e431f",
+  "title": "MaxStepHeight",
+  "content": "MaxStepHeight value\nDefines the maximum height of a step this actor can climb up when moving. Default is 24.\nMaxDropOffHeight value\nDefines the maximum height of a step this actor can climb down when moving. Normally this only applies to monsters but when you set the NODROPOFF flag it applies to all forms of movement.\nDefault is 24.",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-03-01T17:30:47.475000",
+  "updatedAt": "2020-03-01T17:31:13.718000"
+}

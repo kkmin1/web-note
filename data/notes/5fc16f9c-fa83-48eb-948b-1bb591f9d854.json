@@ -1,0 +1,16 @@
+{
+  "id": "5fc16f9c-fa83-48eb-948b-1bb591f9d854",
+  "title": "평균화의 오류",
+  "content": "경제성장률 3% ->\n\n부동산 가격 상승률 3%\n\n사실은 특정 산업의 성장 10% ->\n\n특정지역의 부동산 가격 상승률 10%",
+  "color": "default",
+  "labels": [
+    "898f43eb-c79c-4781-9c09-9e88a458c8c7",
+    "5a9d5fc2-ea5e-4fcc-9ea8-e90e5cafee05"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-13T17:57:20.157000",
+  "updatedAt": "2023-01-24T14:51:02.761000"
+}

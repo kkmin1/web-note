@@ -1,0 +1,15 @@
+{
+  "id": "3be2855b-c6f8-427d-93c5-021e1493445a",
+  "title": "AI의 답안",
+  "content": "chatgpt는 여러 개의 대답들을 나열한 후 가장 그럴듯한 대답에 가장 높은 확률을 둠.\n실시한 문제 중 확률이 가장 높은 대답을 답안으로 제시. 게다가 답안에서 벗어난 확률이 낮은 답안까지 대비. chatgpt는 자신이 답이 참인지 거짓인지 모른다.",
+  "color": "default",
+  "labels": [
+    "9dde1e04-dd34-4201-bce0-c559b528d7a5"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-05-30T07:13:59.847000",
+  "updatedAt": "2025-05-30T07:56:56.938000"
+}

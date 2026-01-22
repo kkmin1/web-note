@@ -1,0 +1,15 @@
+{
+  "id": "1dfd37b2-851a-4517-8c63-3077e278a3c0",
+  "title": "구심가속도 유도",
+  "content": "![image](media/187514a5f73.adbe86181457175d.png)\n\n\n그림 (가)에서 벡터를 (나)와 같이 이동. 이를 확대하면 그림 (다)가 된다.\n(다)에서 즨체삼각형 QOP와 작은 삼각형 QHP는 닮은 꼴.\n∵ 각 Q는 공통, 둘다 직각삼각형으로 직각, 그러므로 나머지 각 O와 QPH는 같다.\n둘다 직각삼각형인 이유는 속도벡터는 둘 다 원의 접점에서 그려지기 때문이다.",
+  "color": "default",
+  "labels": [
+    "0e59aec6-754e-4c02-893c-70f18f19c937"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-04-05T21:00:48.640000",
+  "updatedAt": "2023-04-05T21:58:52.319000"
+}

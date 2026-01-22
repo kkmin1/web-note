@@ -1,0 +1,15 @@
+{
+  "id": "9195da13-83f3-46e4-beab-968e7a19f44b",
+  "title": "윈도우11 프로그램 강제종료(kill)",
+  "content": "![image](media/1671465027387.880617113.png)\n\n응답 없음 프로그램 강제 종료 방법으로 가장 빠르고 신속한 'ALT + F4 단축키'만으로도 대부분의 문제를 해결할 수 있지만, 이 방법이 통하지 않는 몇 가지 상황도 존재합니다.\n\n작업관리자(Ctrl + Shift + ESC)을 열고, 프로세스 목록 중 종료하고자 하는 항목을 선택한 뒤, 우 클릭 - 작업 끝내기를 클릭하면 됩니다.\n\n시작 검색창에 PowerShell로 검색 후, 관리자로 실행을 클릭합니다. PowerShell을 활용하여 특정 프로그램을 종료하기 위해선 프로그램의 정확한 이름 또는 PID을 알아야 합니다. 이를 확인하기 위해선 아래 명령을 입력 실행하여 현재 실행 중인 프로그램 목록을 불러와야 합니다. \ntasklist\n\n명령프롬프트에서 taskkill 명령어를 통해 프로세스를 강제종료 할 수 있다.\ntaskkill /f /im filename.exe\ntaskkill /f /pid 00000\n\n여기서 /f 는 강제종료, /im은 이미지이름을 사용한다는것, /pid는 프로세스 pid 값을 사용하여 종료하겠다는 의미이다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-12-20T00:49:00.616000",
+  "updatedAt": "2022-12-20T01:02:06.003000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "6c5d09c0-4931-4a71-b01a-711594df25e8",
+  "title": "php 웹서버 만들기",
+  "content": "php 설치\n\n1. 콘솔창 열기\n\n*.php 파일이 있는 장소로 이동\n\n서버 실행 : php -S localhost:8000\n\n브라우저 : localhost:8000/*.php\n\nserver stop : ctrl+c, or\n\n$ htop -> find process id number(pid) \n\"Open terminal, run htop. Press / to search and type in php -S or localhost or whatever command you've entered\"\n\n$ kill id number\n\n2. vs code 설치\n\nphp server 설치\n\n3. android app\n\nrun AWEBserver",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-18T13:11:04.908000",
+  "updatedAt": "2021-05-20T14:59:09.249000"
+}

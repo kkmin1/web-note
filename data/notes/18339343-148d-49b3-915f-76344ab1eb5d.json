@@ -1,0 +1,16 @@
+{
+  "id": "18339343-148d-49b3-915f-76344ab1eb5d",
+  "title": "naked short selling vs covered short selling",
+  "content": "공매도의 일종으로 현재 주식을 갖고 있지 않거나 청산일까지도 주식을 확보할 수 있는 가능성이 없음에도 불구하고 주가 하락을 노려 매도 주문을 내는 것을 말한다. 우리나라에서는 금지되어 있지만 미국에서는 증거금만 있으면 네이키드 숏셀링도 무제한 가능했다. \n\n주식을 빌려서 매도하는 공매도 기법을 커버드 숏셀링이라 한다.",
+  "color": "default",
+  "labels": [
+    "898f43eb-c79c-4781-9c09-9e88a458c8c7",
+    "d72f8ac6-ce94-4e53-83db-d973682fff0f"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-06-06T12:01:30.398000",
+  "updatedAt": "2022-06-06T12:01:30.398000"
+}

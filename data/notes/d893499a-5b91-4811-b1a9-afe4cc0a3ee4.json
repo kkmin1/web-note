@@ -1,0 +1,15 @@
+{
+  "id": "d893499a-5b91-4811-b1a9-afe4cc0a3ee4",
+  "title": "cut off",
+  "content": "스위치를 끄다.\n\nflip on ; 스위치를 키다.\nflip off ; 스위치를 끄다.\n\n\nThe engine was flipped to cut off after takeoff\n엔진이 이륙 후 꺼졌다.",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-07-14T10:29:47.988000",
+  "updatedAt": "2025-07-14T10:43:34.478000"
+}

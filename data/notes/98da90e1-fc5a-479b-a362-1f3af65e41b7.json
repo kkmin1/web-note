@@ -1,0 +1,15 @@
+{
+  "id": "98da90e1-fc5a-479b-a362-1f3af65e41b7",
+  "title": "termux에 R 설치 및 실행",
+  "content": "curl -LO https://its-pointless.github.io/setup-pointless-repo.sh\n\nbash setup-pointless-repo.sh\n\npkg install r-base\n\ncd /storage/emulated/0/D/workspace/r\n\n(R 실행)\n> R <- 대문자",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-02T15:55:41.162000",
+  "updatedAt": "2021-05-02T16:05:29.509000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2f005233-4cb8-42d5-87d8-c10019a05e7b",
+  "title": "cheap talk game",
+  "content": "cheap talk 전 상황은 상대방의 유형을 모르는 베이지안 게임 상황이다. \n게임전 cheap talk(보고서)라는 신호를 발생함으로써 불완전 정보하 순차 게임이 된다.\n\n신호게임과 차이점은 신호 제공에 비용이 없음\n-- sender는 신호 유형에 따른 보수에 차이가 없다.\n-- 그래서 일반적으로 sender의 행동은 고려하지 않음\n\ncheap talk : 게임전 대화\n-- payoff 변화 없음\n-- 말이 진실이란 보장 없음\n\n\n\n본 게임(게임전 대화가 없는)의 내쉬균형이 순차게임의 균형인 부분게임 완전균형이 항상 존재(babbling equilibrium ; 수다 균형)\n\n수다균형 : 메세지에 비용이 안들므로 신호에 무관한 균형\n\n값 싼 말 한마디로 상대방의 행동이 바뀌는 비수다 균형이 존재하는가?\n\n1. 상호의 이익이 같다면 진실을 말하는 것이 유리, 상대방의 cheap talk를 믿는 방향으로 선택\n예) 이순신 \"나를 따르라!, 사즉생 생즉사\"\n\n2. 상호의 이익이 정반대(constant sum game)라면 sender는 100% 거짓말 하는 것이 유리하므로 rceiver는 상대의 말을 100% 불신\n\n3. 서로의 이해관계가 1과 2 사이에 있을 경우, 상호의 이익이 이 구간내에 있을 경우\n\n\nwe know from Crawford-Sobel logic that partial revelation may be useful even when there are conflicts of interest\n\nhttps://www.google.com/amp/s/afinetheorem.wordpress.com/2013/02/11/long-cheap-talk-r-aumann-s-hart-2003/amp/\n\n예) 선동 전략, 천리마 운동\n\n문제점 : 칩 토크 게임은 단기적 관점임",
+  "color": "default",
+  "labels": [
+    "4c2e72b8-0cf2-48f3-b5fa-5ad39f6b68ea"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-03-15T09:30:01.460000",
+  "updatedAt": "2022-05-07T12:49:27.471000"
+}

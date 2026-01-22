@@ -1,0 +1,15 @@
+{
+  "id": "e78601ec-a50d-4bbd-bf6f-b0bf81dc6733",
+  "title": "깃헙(GitHub) 블로그  완성하기",
+  "content": "1. 마음에 드는 테마를 선택합니다.\nhttps://github.com/topics/jekyll-theme​\n\n2. fork 합니다.\n도큐먼트를 꼼꼼히 확인합니다.\nhttps://mmistakes.github.io/minimal-m...​\n\n3. _config.yml 파일에서 url을 수정합니다.\n\n4. 새로운 포스팅을 생성합니다.\nhttps://jekyllrb.com/docs/posts/​\n----\nlayout: single\ntitle: 을 적습니다.\n----\n\n5. jupyter notebook 파일을 다운로드 받아 업로드 합니다.\n다운로드 받은 .md 파일 명을 변경 합니다.\n\n6. 테마도 변경해 볼 수 있습니다.\n_config.yml 에 테마 있음\n\n7. 에디터\n- typora 에디터: https://typora.io/",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-30T15:25:09.187000",
+  "updatedAt": "2021-04-30T15:25:53.801000"
+}

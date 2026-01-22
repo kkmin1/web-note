@@ -1,0 +1,15 @@
+{
+  "id": "320cec80-1c11-4aa7-8cde-28843829f68b",
+  "title": "Outages",
+  "content": "전력 공급 중단(정전), \n서비스 중단\n네트워크 중단",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-11-01T08:40:39.586000",
+  "updatedAt": "2025-11-01T08:40:39.586000"
+}

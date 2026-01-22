@@ -1,0 +1,15 @@
+{
+  "id": "2ca5129c-e172-4601-96a0-6ab1ed2add24",
+  "title": "윈도우10 이미지 usb 백업",
+  "content": "https://answers.microsoft.com/en-us/windows/forum/windows_10-update-winpc/how-to-create-windows-10-system-image-on-a-usb/24e84aff-3916-4661-894b-f140005d3b9e?page=2\n\nYou cannot use Microsoft's built in \"Backup and Restore\" to create a system Image on a USB3.0 drive.  You will need a third party program like  EaseUS ToDo , Macrium (both free) or pay-for programs like Paragon Hard Disk Manager 15  or Acronis True Image. (they all work with SSD)\n\nYour Flash Drive needs to be formatted in NTFS rather than Fat or Fat32.  That's nothing more than a Right-Click on the drive after it's inserted to a USB slot and choose Format.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-02-21T17:44:52.341000",
+  "updatedAt": "2021-02-21T17:45:57.116000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ca405cdc-a33c-43fd-85f3-8f9c9d9e162a",
+  "title": "R : run R script file in interactive mode",
+  "content": "> getwd() # show current directory\n\n> list.files() # equivalent to ls\n\n> setwd('sdcard/Documents') # equivalent to cd\n\n> source('test.R, encoding='utf-8'') # run the script\n\n> install.packages()",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-05T06:31:39.673000",
+  "updatedAt": "2021-05-02T16:31:51.698000"
+}

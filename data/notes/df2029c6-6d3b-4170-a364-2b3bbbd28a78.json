@@ -1,0 +1,15 @@
+{
+  "id": "df2029c6-6d3b-4170-a364-2b3bbbd28a78",
+  "title": "음식",
+  "content": "水果[shuǐguǒ]  과일\n\n海鲜  해산물\n\n做飯 = 밥을 하다, 요리하다, 음식을 만들다",
+  "color": "default",
+  "labels": [
+    "653bf962-53d2-4b05-92f9-98cfb107a6f9"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-10-18T15:36:16.939000",
+  "updatedAt": "2025-10-19T11:14:12.574000"
+}

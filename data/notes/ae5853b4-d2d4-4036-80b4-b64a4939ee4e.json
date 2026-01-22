@@ -1,0 +1,15 @@
+{
+  "id": "ae5853b4-d2d4-4036-80b4-b64a4939ee4e",
+  "title": "x^2+y^2+z^2 >= xy+yz+zx",
+  "content": "(증명)\n양변 2 곱\n\n2x^2+2y^2+2z^2 >= 2xy+2yz+2zx\n\n따라서\n\n(x-y)^2+(y-z)^2+(z-x)^2 >= 0",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-07-20T20:42:07.922000",
+  "updatedAt": "2023-12-24T08:19:52.504000"
+}

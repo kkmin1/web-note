@@ -1,0 +1,15 @@
+{
+  "id": "e2aeadf6-4130-44c5-ad19-93f9a1523383",
+  "title": "연료별 에너지 밀도",
+  "content": "일반적인 가솔린 엔진의 에너지 밀도는 1700Wh/kg\n\n수소연료전지 에너지 밀도는 1330Wh/kg\n\n리튬이온밧데리 에너지 밀도는 250Wh/kg\n\n\n수소가 가솔린보다 연비 안좋음. 그래서 안쓰는 거임.\n\n수소가 가솔린보다 좋은 점은 청정에너지라는 거 하나뿐",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-12T00:11:50.053000",
+  "updatedAt": "2021-08-11T14:28:11.635000"
+}

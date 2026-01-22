@@ -1,0 +1,15 @@
+{
+  "id": "10425773-213c-4fad-b2a1-b539f1724c15",
+  "title": "공습경보 발령시",
+  "content": "핵무기는 지하로, 생화학은 고층으로,\n\n핵공격을 받으면 지하 주차장, 화학탄 떨어지면 아파트로 올라가야.",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-05-31T07:59:05.518000",
+  "updatedAt": "2023-09-05T19:37:57.450000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "8d01b9a6-91a4-456e-8d1d-eb2c7dbf3daa",
+  "title": "ftp 서버 주소",
+  "content": "myphone\nftp://192.168.219.100:7164",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-01-15T10:58:54.370000",
+  "updatedAt": "2025-01-15T16:19:39.818000"
+}

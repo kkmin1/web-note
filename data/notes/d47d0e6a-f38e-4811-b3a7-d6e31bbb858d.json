@@ -1,0 +1,15 @@
+{
+  "id": "d47d0e6a-f38e-4811-b3a7-d6e31bbb858d",
+  "title": "multiling 키보드 설정",
+  "content": "설정 -> 단어추천 -> \n추천단어 (o),  \n항상단어추천 (x)\npunctuation : 특수문자 설정\n\n설정 -> 오래 누르는 시간 -> 200\n설정 -> 키보드 레이아웃 \n-> 크기 -> 작게\n아퍼스트로키,  설정키, 애로우키 체크\n\n===============================\n\nmultiling o\n\nlayout -> sugestion bar\n\n기존 것 지우고, \n붙여넣기 multilingual sugestion bar.txt",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-04T18:42:25.124000",
+  "updatedAt": "2021-05-06T09:36:55.792000"
+}

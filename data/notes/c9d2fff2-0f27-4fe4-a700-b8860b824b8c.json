@@ -1,0 +1,15 @@
+{
+  "id": "c9d2fff2-0f27-4fe4-a700-b8860b824b8c",
+  "title": "구경",
+  "content": "구경.. 말그대로 구멍의 지름을 말한다.\n그러니까 총구의 지름.. 인치 단위.\n구경이란 Calliber, 즉 (총알의 직경이 아닌) 총구/포의 구멍을 기준으로한 직경이 맞습니다.\n\n0.38inch, 0.45inch\n\n1inch는 2.54cm 이므로 환산하면 0.9652cm, 1.143cm이 되겠군요.\n\nK-2는 5.56mm죠. 권총은 소총보다 총신이 짧아 충분한 파워를 받지 못하기 때문에 일반적으로 구경을 늘립니다.\n\n우리나라의 K-5도 9mm 탄환을 사용하죠.",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-03-01T14:52:06.184000",
+  "updatedAt": "2023-03-01T15:55:12.826000"
+}

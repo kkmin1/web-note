@@ -1,0 +1,17 @@
+{
+  "id": "50925429-8cf9-4dcd-ae54-b1a92159cb41",
+  "title": "코로나 자가 검사키트",
+  "content": "정확도 50%\n\n세번 연속 검사 모두 비감염으로 나왔을 때 비감염일 확률\n\n1-0.5³ = 0.875",
+  "color": "default",
+  "labels": [
+    "962773d3-36bd-4ad9-ae7c-a7d4dedcca9a",
+    "19e61c8e-f497-407f-9d27-abd4f79af89f",
+    "5a9d5fc2-ea5e-4fcc-9ea8-e90e5cafee05"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-03-23T20:38:04.816000",
+  "updatedAt": "2022-03-23T21:39:02.279000"
+}

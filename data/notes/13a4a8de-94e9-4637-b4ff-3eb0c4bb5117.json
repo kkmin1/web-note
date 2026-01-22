@@ -1,0 +1,15 @@
+{
+  "id": "13a4a8de-94e9-4637-b4ff-3eb0c4bb5117",
+  "title": "간단 웹서버 실행",
+  "content": "1. 파이썬\n\n파이썬 설치\n\npython -m http.server\n\n// 디폴트 포트 8000, index.html\n// html 이 있는 폴더에서 위 명령어 실행\n// 웹브라우저 localhost:8000\n\npython -m http.server 5000\n// 포트 5000\n\npython -m http.server  --bind 127.0.0.1\n// ip 명시\n\npython -m http.server --directory /foo/bar\n// 폴더 명시\n\n2. 루비\n\n루비 설치\n\nruby -run -e httpd . -p 8000\n\n3. php\n\n(안드로이드)\napp 서버 사용 권장 않함(오류 많이 남)\n\n터미널(termux)에서 php 설치\n\n// 로컬에서만 접속가능한 서버 실행\n$ php -S localhost:8000\n\n// 외부에서 접속가능한 서버 실행\n$ php -S 0.0.0.0:7767\n\n// mydirectory 가 root \n$ php -S 0.0.0.0:7767 -t /mydirectory\n\n// 특정 ini 사용\n$ php -S localhost:1234 -c /config/php.ini\n\nhttp://localhost:8000/*.php 실행\n\n(window)\n\nphp 설치\n\n환경변수 -> 시스템 변수 -> path 에 php 폴더 추가\n\n> php -S localhost:8000\nhttp://localhost:8000/*.php \n\n4. node.js\n(1)\n> npm install -g http-server\n> http-server ./\n(브라우저에 url 입력창에)\nhttp://localhost:8080/\n\n(2)\n[server.js 파일 작성]\n\nvar http = require('http'); \nvar server = http.createServer(function(request,response){ \n    response.writeHead(200,{'Content-Type':'text/html'});\n    response.end('Hello node.js!!');\n});\nserver.listen(3000, function(){ \n    console.log('Server is running...');\n});\n\nserver.js 파일 있는 폴더에서 명령창 실행\n콘솔창에서 node server 실행\nserver 실행\n웹브라우저에서 http://localhost:3000",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-27T08:56:20.611000",
+  "updatedAt": "2024-02-12T09:49:29.625000"
+}

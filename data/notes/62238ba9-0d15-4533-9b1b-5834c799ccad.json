@@ -1,0 +1,16 @@
+{
+  "id": "62238ba9-0d15-4533-9b1b-5834c799ccad",
+  "title": "github 내 블로그 수정",
+  "content": "[전체수정]\nindex.html\n\n[코드 수정]\ncode.html",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "4811d765-02fd-4c4f-95e5-010bdcf7686a"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-04-20T18:10:41.043000",
+  "updatedAt": "2022-05-09T12:23:41.683000"
+}

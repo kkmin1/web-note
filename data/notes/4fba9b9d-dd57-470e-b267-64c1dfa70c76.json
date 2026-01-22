@@ -1,0 +1,15 @@
+{
+  "id": "4fba9b9d-dd57-470e-b267-64c1dfa70c76",
+  "title": "doom에서 동영상 실행",
+  "content": "A method which I have used before was to convert an MP4 file (feasable if only a handful of seconds)to a GIF file. Then the individual images can be imported into a pwad with Slade3.\nThe animation can then be accomplished either with ANIMATED or ANIMDEFS, or scripted\n\nSetLineTexture(line1, SIDE_FRONT, TEXTURE_MIDDLE, \"image001\");\ndelay ( time);\nand repeated for the number of images.\n\n \nAs a consequence, however, the file size will be enormous. For example my pwad Agility_Course",
+  "color": "default",
+  "labels": [
+    "6942c042-54af-422c-91c2-3af7ee16e5c5"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-03-27T07:30:44.715000",
+  "updatedAt": "2023-03-27T08:03:34.705000"
+}

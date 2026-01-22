@@ -1,0 +1,15 @@
+{
+  "id": "051d0f8b-810c-4e37-ac23-61a5d6b516d4",
+  "title": "Min's homepage 프로그래밍 갱신 방법",
+  "content": "코드 내용 업데이트 : code.txt\n\n새 메뉴 추가 : code.js, code.html, dropdown.js 수정",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-03-02T15:10:26.334000",
+  "updatedAt": "2021-05-02T13:22:39.781000"
+}

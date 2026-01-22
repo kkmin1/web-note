@@ -1,0 +1,15 @@
+{
+  "id": "ca517808-c6f1-41a4-8a8e-7a93a2af67bb",
+  "title": "곱의 법칙",
+  "content": "개별의 합은 전체를 의미하지 않음\n\n수학에서 더하기(합)은 각 요소간 상관관계가 없음(독립성, 비연결)을 의미 \n\n-> 선형성\n\n서로 연결되어 있을 경우(상관관계) 곱의 법칙, 곱의 과정(multiplicative process)\n\n--> 물리학의 법칙은 대부분 곱의 법칙\n\n---> 창발현상, 카오스, 멱급수 법칙",
+  "color": "default",
+  "labels": [
+    "a57425d6-bf5f-4849-8870-5e88e53e4b54"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-04-12T07:42:16.239000",
+  "updatedAt": "2023-05-16T13:51:40.395000"
+}

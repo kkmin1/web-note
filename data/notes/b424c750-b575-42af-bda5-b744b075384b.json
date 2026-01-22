@@ -1,0 +1,15 @@
+{
+  "id": "b424c750-b575-42af-bda5-b744b075384b",
+  "title": "ubuntu shell script",
+  "content": "editor를 쓰면 dos 문자가 포함됨\n\nunix encoding 필요\n\nubuntu에서\n\n> dos2unix filename.sh\n\n> bash filensme.sh\n\nbash가 sh보다 확장형\n\nsh 명령은 에러날 수 있다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-08T00:33:05.147000",
+  "updatedAt": "2021-05-08T00:37:07.505000"
+}

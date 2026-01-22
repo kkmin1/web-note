@@ -1,0 +1,15 @@
+{
+  "id": "d83405d1-5b77-4249-b585-5137f1778ad2",
+  "title": "포탄 무게/탄두 무게",
+  "content": "포탄무게\n155mm 포탄:\n무게: 약 45kg\n46.7kg짜리 포탄에는 10.8kg의 폭약\n\ngpt\nM107 고폭탄(HE, High-Explosive) 폭약 중량은 약 6.86kg (15.1lb) TNT입니다.\nM795 HE 포탄: 약 10.8kg (23.8lb) TNT 또는 IMX-101\nM549A1 RAP (사거리 연장탄): 약 6.8kg (15lb) TNT\n\n\ngrok\n155mm 포탄의 탄두 무게는 포탄의 종류에 따라 다르지만, 일반적으로 널리 사용되는 고폭탄(HE, High Explosive) 기준으로 설명드리겠습니다. 예를 들어, 미군에서 사용하는 M107 155mm 고폭 포탄의 경우, 전체 무게는 약 43.2kg(95파운드)이며, 이 중 폭약(TNT 또는 Composition B)의 무게는 약 6.6kg(14.6파운드) 정도입니다. \n즉, \"탄두 무게\"를 폭약의 무게로 해석한다면 약 6.6kg이고, 포탄 전체 무게를 묻는 것이라면 43.2kg입니다. \n\ngemini\n고폭탄 (HE): 약 6.8kg ~ 11kg\n집속탄 (DPICM): 약 10kg\n\n\n\n105mm 포탄:\n무게: 약 15kg\n\n81mm 박격포탄:\n무게: 약 4.5kg\n\n60mm 박격포탄:\n무게: 약 1.7kg\n\n8인치 포탄:\n무게: 약 90kg\n\n\n\n130g  :  세열수류탄\n3kg :  rpg\n4.5kg  : 120mm 박격포탄\n6.985kg : 155mm 포탄\n\n87kg  : 500파운드 폭탄\n202kg : 1000파운드 폭탄\n429kg : 2000파운드 폭탄",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-08-28T20:47:05.181000",
+  "updatedAt": "2025-03-07T06:20:34.424000"
+}

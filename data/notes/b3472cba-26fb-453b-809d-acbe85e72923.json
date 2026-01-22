@@ -1,0 +1,15 @@
+{
+  "id": "b3472cba-26fb-453b-809d-acbe85e72923",
+  "title": "GPU연산속도",
+  "content": "FLOPS(Floating Point Operations Per Second)\n초당 부동소수점 연산\n\nFLOPS공식=코어 개수×클럭 속도(Hz)×연산량(연산/사이클) , \n\nTFLOPS (Tera Floating Point Operations Per Second) \nFLOPS의 단위를 확장한 것\n1TFLOPS = 1조(10¹²) FLOPS \nGPU가 초당 1조 개의 부동소수점 연산을 수행할 수 있으면 1TFLOPS 성능\n\n\n[FLOPS가 높다고 반드시 AI 학습/추론 속도가 빠른 것은 아닌 이유 3가지]\n\n1)메모리 대역폭(Bandwidth): 데이터가 빠르게 공급되지 않으면 FLOPS가 높아도 성능이 제한됨.\n\n2)연산 효율성(Parallelism, Optimization): FLOPS가 높아도 GPU 연산이 Batch단위 병렬처리를 최적으로 활용하지 못하면 성능 저하 가능.\n\n3)AI 모델의 구조(Compute vs Memory bound): AI모델구조도 영향을 미치며 어떤 AI 모델은 연산량(FLOPS)이 아니라 메모리 접근 속도가 병목이 되는 경우도 있음.\n\n즉, FLOPS와 TFLOPS는 AI 연산에서 GPU의 계산 능력을 평가하는 주요 지표이지만, 메모리 속도, 데이터 이동 효율성, 최적화 기술도 함께 고려해야 함.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-03-12T08:21:15.793000",
+  "updatedAt": "2025-03-12T08:21:15.793000"
+}

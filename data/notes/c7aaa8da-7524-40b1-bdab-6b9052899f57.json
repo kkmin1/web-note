@@ -1,0 +1,13 @@
+{
+  "id": "c7aaa8da-7524-40b1-bdab-6b9052899f57",
+  "title": "dory nodejs : express설치",
+  "content": "npm install -g 로 설치",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2018-07-21T13:28:45.612000",
+  "updatedAt": "2018-07-21T13:30:14.927000"
+}

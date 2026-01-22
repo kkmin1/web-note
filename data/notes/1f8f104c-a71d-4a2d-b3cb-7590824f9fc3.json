@@ -1,0 +1,15 @@
+{
+  "id": "1f8f104c-a71d-4a2d-b3cb-7590824f9fc3",
+  "title": "주식 수요 - 공급",
+  "content": "증자, 자회사 상장(IPO), 전환사채 전환, 물적 분할\n\n- > 주식 공급 증가\n\n-> 주식 가격 하락",
+  "color": "default",
+  "labels": [
+    "898f43eb-c79c-4781-9c09-9e88a458c8c7"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-01-14T08:48:48.030000",
+  "updatedAt": "2022-04-03T22:32:57.335000"
+}

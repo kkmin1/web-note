@@ -1,0 +1,15 @@
+{
+  "id": "59b6ea9f-a773-4663-842a-b355fd61dfdd",
+  "title": "termux 우분투 설치 및 실행",
+  "content": "Update termux: \napt-get update && apt-get upgrade -y\n\nInstall wget: \napt-get install wget -y\n\nInstall proot: \napt-get install proot -y\n\nInstall git: \napt-get install git -y\n\nGo to HOME folder: cd ~\n\nDownload script: \ngit clone https://github.com/MFDGaming/ubuntu-in-termux.git\n\n\n<우분투 실행>\n\nGo to script folder: \ncd ubuntu-in-termux\n\n\n1.  v40폰\n\nchange directory : \n> cd u\n\nGive execution permission : \n> chmod +x ubuntu.sh\n\nRun the script : \n> ./ubuntu.sh -y\n\nNow just start ubuntu : \n> ./startubuntu.sh\n\n우분투 설치하면 기본으로 python3이 설치된다.\n\n나가기 : \n> exit\n\n=================================\n\n2.  갤럭시 와이드\n\n> cd u\n\n> sh u.sh\n\n=================================\n\n<우분투에서 휴대폰 파일시스템에 접근>\n\ncd storage/shared/download\n\ncd /storage/emulated/0 \n\ncd /sdcard \n\nmkdir Directory \n\n=================================\n\n<termux 가 휴대폰 파일시스템에 접근>\n\ntermux 화면에서 다음 명령 시행\n\ntermux-setup-storage \n\nfrom within Termux, and then accept the request to write to the storage, in order for Termux to be able to perform directory and file creation.\n\nThe termux-setup-storage command creates a new directory in your $HOME or ~/ directory named storage. This new directory contains a few symlinks to /storage/emulated/0 listed below:\n\ndcim -> /storage/emulated/0/DCIM \ndownloads -> /storage/emulated/0/Download external-1 -> /storage/external_sd/Android/data/com.termux/files \nmovies -> /storage/emulated/0/Movies \nmusic -> /storage/emulated/0/Music \npictures -> /storage/emulated/0/Pictures shared -> /storage/emulated/0 \n\nTherefore, you can run the following commands to create /storage/emulated/0/폴더명\n\ncd ~/storage/shared \n\nmkdir 폴더명\n\n하면, 휴대폰 파일시스템에\n\n/storage/emulated/0/폴더명\n\n이 생성\n\n아래 명령으로 우분투에 들어간 후\ncd ubuntu-in-termux\n./startubuntu.sh\n\ncd /storage/emulated/0/폴더명\n\n하여 원하는 폴더로 들어간다.\n\n나가기 : exit",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-04-06T15:44:16.260000",
+  "updatedAt": "2021-05-04T18:33:06.290000"
+}

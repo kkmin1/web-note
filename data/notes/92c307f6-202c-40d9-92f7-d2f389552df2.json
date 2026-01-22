@@ -1,0 +1,15 @@
+{
+  "id": "92c307f6-202c-40d9-92f7-d2f389552df2",
+  "title": "휴대폰 ftp 연결",
+  "content": "(방법 1) 휴대폰에서 ftp 서버를 만든다.\n\n\n1. 휴대폰에서 'cx 파일 탐색기' 실행\n\n2. 네트워크 탭\n\n3. 네트워크에서 액세스 탭\n\n4. 시작 탭\n\n5. ftp 접속\n\n(방법 2) send anywhere 앱",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-05-07T15:54:07.616000",
+  "updatedAt": "2023-04-20T11:24:45.019000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "d081b046-1aad-45f1-a5bc-ba132a932630",
+  "title": "jquery .get('*.php') 할 경우",
+  "content": "1. web+php 서버를 돌려야 함.\n\n2. 또는 web server와 php 서버를 동시에 돌림 \n두 서버의 주소, 포트를 일치시켜야 함\n예) 웹서버 주소 http://127.0.0.1:5500 라면 php 서버 주소도 http://127.0.0.1:5500\n\n3. php 서버 실행\n    php -S localhost:8000",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-01T00:03:35.695000",
+  "updatedAt": "2021-05-18T13:11:04.816000"
+}

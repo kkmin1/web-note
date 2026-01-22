@@ -1,0 +1,16 @@
+{
+  "id": "a97ff634-0219-416a-a64a-7c69df842b5e",
+  "title": "지하철",
+  "content": "![image](media/19530ead551.9449a23baeccca9c.jpg)\n![image](media/19530ead594.b75293180eec63fd.jpg)\n![image](media/19530ead5cb.93c6c889b66dd1cb.jpg)\n![image](media/19530ead625.83223ea34fd37151.jpg)\n![image](media/19530ead682.b8c389bade942da4.jpg)",
+  "color": "default",
+  "labels": [
+    "5c0ac426-0019-4c26-87b6-d8301e4724ed",
+    "127beec1-245d-4165-b42d-20a86e1598bc"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-02-23T12:47:37.802000",
+  "updatedAt": "2025-02-23T12:48:45.862000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "06eb6686-fd99-4958-a8dd-9f1b21474ca0",
+  "title": "lagrangian",
+  "content": "(문제)\nx + y + z = 1 이면  xy + yz + zx ≦ ½ 임을 증명\n\n\n(풀이)\n라그란지안 기법을 이용하면 됨\n\nmax     xy + yz + zx\ns.t         x + y + z = 1\n\n let @  lagrangian multiplier\n \nL(x,y,z) = xy + yz + zx + @(1 - x - y - z)\n\n&L/&x = y+z-@ = 0 ... ①\n&L/&y = x+z-@ = 0 ... ②\n&L/&z = y+x-@ = 0 ... ③\n&L/&@ = (1 - x - y - z) = 0 ... ④\n\n①, ②, ③ 에서\n\nx + z = y + z, x + y = y + z, x + z = y + x \n\n∴ x = y = z\n\n④ 에서  x + y + z = 1 \n\nso, x = y = z = ⅓\n\n∴ xy + yz + zx 의 최대값은 ⅓\n\n즉, \nxy + yz + zx ≦ ⅓",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-06-28T07:35:45.544000",
+  "updatedAt": "2023-12-24T08:17:00.128000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "72aef277-ba89-4c3f-86a7-925f0e2bc29d",
+  "title": "php 서버 만들기",
+  "content": "(안드로이드)\napp 서버 사용 권장 않함(오류 많이 남)\n\n터미널(termux)에서 php 설치\n\n// 로컬에서만 접속가능한 서버 실행\n$ php -S localhost:8000\n\n// 외부에서 접속가능한 서버 실행\n$ php -S 0.0.0.0:8000\n\n// 특정 ini 사용\n$ php -S localhost:8000 -c /config/php.ini\n\nhttp://localhost:8000/*.php 실행\n\n(window)\n1.  http://windows.php.net/download/ 에 접속하여 PHP설치파일(x64 Thread Safe )을 다운로드\n2. c:\\php 폴더에 압축 해제\n3. 제어판 -> 환경변수 -> 시스템 변수 -> path 에 php 폴더 추가\n4. > php -S localhost:8000\n5. http://localhost:8000/*.php 실행",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-27T15:10:09.487000",
+  "updatedAt": "2021-04-30T21:52:32.376000"
+}

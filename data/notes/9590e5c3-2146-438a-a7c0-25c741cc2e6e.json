@@ -1,0 +1,15 @@
+{
+  "id": "9590e5c3-2146-438a-a7c0-25c741cc2e6e",
+  "title": "웹 페이지 소스 코드 보기",
+  "content": "[컴퓨터]\n ctrl + u\n\n[안드로이드]\nview-source:주소\nview-source:http://주소",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-27T21:29:51.722000",
+  "updatedAt": "2023-03-13T00:49:20.829000"
+}

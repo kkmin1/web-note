@@ -1,0 +1,15 @@
+{
+  "id": "0daff6f8-7932-43db-a36a-ec86afa5dcc9",
+  "title": "python matplotlib 에서 한글",
+  "content": "운영체제(OS)에 따라 일반적으로 설치되어 있는 한글 폰트를 설정해 줍니다.\nWindows (윈도우): 'Malgun Gothic' (맑은 고딕)\n\n\nimport matplotlib.pyplot as plt\n# 폰트 설정\nplt.rcParams['font.family'] = 'Malgun Gothic'\n# 마이너스 기호 깨짐 방지\nplt.rcParams['axes.unicode_minus'] = False",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-11-03T11:54:27.418000",
+  "updatedAt": "2025-11-03T11:55:13.174000"
+}

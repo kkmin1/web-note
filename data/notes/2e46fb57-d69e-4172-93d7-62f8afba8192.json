@@ -1,0 +1,15 @@
+{
+  "id": "2e46fb57-d69e-4172-93d7-62f8afba8192",
+  "title": "odds",
+  "content": "승산(勝算)\n\n\nodds = 성공 비율 / 실패 비율\n\n성공 확률이 실패 확률에 비해 얼마나 더 큰 가\n\nodds가 클수록 성공확률이 크다는 의미\n\n예) 만약 어떠한 이벤트가 성공할 확률이 60%라고 할 때, odds는 0.6/0.4 = 1.5",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-03-15T05:23:19.425000",
+  "updatedAt": "2025-11-17T08:46:44.620000"
+}

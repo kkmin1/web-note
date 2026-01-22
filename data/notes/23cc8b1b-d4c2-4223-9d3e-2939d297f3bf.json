@@ -1,0 +1,17 @@
+{
+  "id": "23cc8b1b-d4c2-4223-9d3e-2939d297f3bf",
+  "title": "복사방지 풀기",
+  "content": "<pc>\n웨일 브라우저 : 옵션 - 읽기 모드\n\n기타 브라우저 : F12 - F1 - <Debugger> Disable JavaScript 체크 \n\n<휴대폰>\nfirefox : 주소창에서 문서 그림 체크\n\n네이버 웨일 : 옵션 - 읽기 모드\n\n다른 앱에 공유하면 복사가능\n- voice aloud reader, save as web, web reader\n\nweb reader는 firefox로 공유해야 될 때도 있음",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "cfb0bd80-b93f-470e-8dbd-0ec7c53a7757",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2022-01-22T17:15:04.161000",
+  "updatedAt": "2023-05-20T09:02:45.372000"
+}

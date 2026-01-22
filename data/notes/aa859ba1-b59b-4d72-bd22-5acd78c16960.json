@@ -1,0 +1,15 @@
+{
+  "id": "aa859ba1-b59b-4d72-bd22-5acd78c16960",
+  "title": "전쟁시 포탄/포신 소모",
+  "content": "Beginning on August 6, open-source intelligence began to reveal that a U.K. Royal Air Force (RAF) C-17 Globemaster III aircraft (serial ZZ143) was conducting almost daily flights from Romania’s Cluj International Airport or RAF Akrotiri in Cyprus to Pakistan’s Nur Khan Air Base. This development came days after Britain announced it would be supplying Ukraine with more than 50,000 Soviet-type artillery shells.\nOver the course of 15 days, the C-17 Pakistan-Romania airlift effort completed a total of 12 trips, leading many analysts to assume that the United Kingdom was transporting military supplies for the Ukrainians.\n\n미국의 M777 곡사포 1 대가 몇 달 사이에 포신을 4번 교체한 경우도 있었다. 우크라이나 군대가 직면한 문제 중 일부는 무기 수리 및 예비 부품 공급과 관련하여 동맹국의 계획 오류와 관련이 있습니다. 독일이 기증한 PzH 2000 자주포도, 프랑스는 카이사르 자주포도 포신 마모가 심해 대부분 사용불능이다.\n\n포신도 수명이란 게 있지요. 통상 155밀리는 2,000발 정도 됩니다. 전쟁중이라면 1~2개월이면 수명이 다하지요. 수명이 다했다고 못쏘는 건 아니지만, 명중률이나 여러가지 심각한 문제가 나타나지요.  정비도 안하고 무식하게 하면 금방 고장나지요.\n\n포병부대에서 포신교체훈련 합니다. 통상 대대급훈련때 정비대가 지원옵니다. 1개 포반 포신 교체하는데 대략 1시간 정도 걸린 것같네요. 포신만 크레인으로 들어올립니다. 정상 임무를 재개하려면 포신만 교체했다고 끝이아니고 조준감사를 새로 해야됩니다.\n포탄을 1발 쏠때마다 포신의 포강(tube)이 조금씩 깎입니다. 일정 침식량 값을 계산해서 기록하게 되어있지요. 사격임무 중에는 포반기록 양식지에 기록하고, 사격임무 후에 소급해서 화포 이력카드에 잔여 사격가능 발수를 기록합니다. 국내 화포는 통상 5천발 사격 후 포신을 교체하는 걸로 기억합니다.\n\nk9도 k676 5호 장약이나 k677 쓰면 금방 닮음.\n훈련 때는 저호 장약을 훈련 때 쓰다보니 창정비 때나 포신 교체함.",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-01-03T05:45:06.315000",
+  "updatedAt": "2023-01-03T06:13:35.863000"
+}

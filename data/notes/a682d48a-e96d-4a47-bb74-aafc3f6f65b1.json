@@ -1,0 +1,13 @@
+{
+  "id": "a682d48a-e96d-4a47-bb74-aafc3f6f65b1",
+  "title": "apach 서버에서 asp ",
+  "content": "How to Run ASP Pages on an Apache Server\n\nby G.S. Jackson\n\n￼\n\nApache is an open source Web server and a free alternative to commercial server operating systems. Apache can serve pages in most any Web scripting language such as PHP, Perl and Python; it also serves HTTP requests for Web pages. However, Apache is not a Microsoft product, which means it does not natively handle ASP.NET code. By installing Mono, the open source .NET project, you can also install a plugin for Apache that will handle ASP pages.\n\n1.\n\nDownload and install the Mono package for your operating system from the Mono website (link in Resources). If you are running a Linux distribution that uses package-managing tools, install Mono through your package system.\n\n2.\n\nLocate the Apache configuration file. On a Windows computer, this will be at C:\\apache\\conf\\https.conf. On Mac OSX and Ubuntu systems, the file is located at /etc/apache2/httpd.conf.\n\n3.\n\nOpen the configuration file using a text editor.\n\n4.\n\nAdd one of the following lines to the end configuration file. This code will load Mono and allow Apache to access .NET libraries and serve ASP pages.\n\nMac OS or Ubuntu: Include \n/etc/apache2/mod_mono.conf \nWindows: Include C:\\apache\\mod_mono.conf",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2018-07-13T19:37:37.553000",
+  "updatedAt": "2018-07-16T21:04:36.310000"
+}

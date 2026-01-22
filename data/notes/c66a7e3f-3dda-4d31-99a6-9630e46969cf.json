@@ -1,0 +1,15 @@
+{
+  "id": "c66a7e3f-3dda-4d31-99a6-9630e46969cf",
+  "title": "Kotlin in android",
+  "content": "jvdroid app 사용\n\n좌측 메뉴에서 samples -> jvn language -> kotlin\n\n--> 원하는 곳으로 경로 변경 -> 예제 실행\n\n지정 경로에 새로운 폴더 및 예제 파일이 생긴다.\n\n이 폴더 -> src -> 에서 새 파일 작성 후 실행",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-03-29T12:42:28.528000",
+  "updatedAt": "2021-03-29T13:36:10.232000"
+}

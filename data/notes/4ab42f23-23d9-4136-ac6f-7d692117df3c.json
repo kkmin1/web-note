@@ -1,0 +1,15 @@
+{
+  "id": "4ab42f23-23d9-4136-ac6f-7d692117df3c",
+  "title": "php 서버 만들기",
+  "content": "php 서버 앱 실행 -> 권장 않함\n\n서버 디렉토리에 php 파일 놓음\n예) /storage/emulated/0/www/public/\n\n서버 주소 접속\n예)\nhttp://0.0.0.0:8080/hello.php\nor\nhttp://localhost/test.php\nor\nhttp://127.0.0.1/test.php",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-03-28T16:11:41.759000",
+  "updatedAt": "2021-04-28T22:53:03.711000"
+}

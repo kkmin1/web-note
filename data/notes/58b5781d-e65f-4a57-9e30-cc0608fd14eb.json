@@ -1,0 +1,15 @@
+{
+  "id": "58b5781d-e65f-4a57-9e30-cc0608fd14eb",
+  "title": "",
+  "content": "[네트워크 그래픽 툴]\nhttps://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.8/cytoscape.js\n\nhttps://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.2.8/cytoscape.min.js\n\n[윈도우에서 utf-8을 출력]\n 커맨드창에서  > chcp 65001 \n\n\n[웹 색상]\nhttps://ko.wikipedia.org/wiki/웹_색상\nHTML Color Picker: https://www.w3schools.com/colors/colors_picker.asp\n\n\n\n\n\n\n[우분투 시스템 관리 모니터]\ngnome-system-monitor\n\n\n[gnuplot에서 cobweb.gnu 실행]\n ‎   load \"/storage/emulated/0/Download/eco-cobweb.gnu\"\n\n\n\n<기기별 웹페이지 출력 조정>\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no , target-densitydpi=medium-dpi\">\n \n<meta name=\"viewport\"\ncontent=\"\nwidth=[가상해상도],\ninitial-scale=[초기 확대 축소 비율],\nmaximum-scale=[최대 확대 비율],\nminimum-scale=[최소 축소 비율],\nuser-scalable=[사용자에 의한 확대 축소 허용 여부]\ntarget-densitydpi=[기기의 실제 해상도]\n\"\n/>",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2017-12-11T00:00:52.799000",
+  "updatedAt": "2023-03-13T00:46:26.670000"
+}

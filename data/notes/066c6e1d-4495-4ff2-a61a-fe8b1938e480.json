@@ -1,0 +1,15 @@
+{
+  "id": "066c6e1d-4495-4ff2-a61a-fe8b1938e480",
+  "title": "ThrustThing - ZDoom Wiki",
+  "content": "https://zdoom.org/wiki/ThrustThing\n\n\n< map image extract >\n\nhttps://www.doomworld.com/forum/topic/103869-any-software-that-takes-pictures-of-doom-maps/#comment-1953388\n\nhttps://zdoom.org/wiki/ThingCount\n\nhttps://zdoom.org/wiki/A_Print\n\n<tree sprite>\nhttps://forum.zdoom.org/viewtopic.php?f=37&t=35861\n\n<projectile : death, xdeath, crash>\nhttps://zdoom.org/wiki/Projectile\n\n<stealth item>\na_wander\n\n<goggle>\nlook stealth monster\n\nMinMissileChance value\nThis is one part of the missile attack probability calculation. The lower this value is the more aggressive the monster is. \nThis can be combined with the MISSILEMORE and MISSILEEVENMORE flags.\nDefault value is 200.\n\n<double sky>\nhttps://forum.zdoom.org/viewtopic.php?f=3&t=14130\n\nmapinfo lump에서\nSky1 = \"<texture>\", [scrollspeed]\nSky2 = \"<texture>\", [scrollspeed]",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-01-29T10:52:19.386000",
+  "updatedAt": "2020-02-17T16:36:04.508000"
+}

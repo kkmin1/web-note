@@ -1,0 +1,13 @@
+{
+  "id": "d8e1213c-c1ff-4cfb-ac30-365f78604c20",
+  "title": "우분투 asp.net 실행",
+  "content": "<웹 실행방법>\ndotnet core 설치\n\n(1) mvc 형\n새 폴더를 만들고 새 폴더에서\ndotnet new mvc\ndotnet run\n\nfirefox(chrome은 보안상 안 됨)에서\nhttps://localhost:5001\n보안 에러 메세지가 뜨면 고급 -> 예외처리 체크\n다시 로드\n기본화면 생성\n\n기본화면 고칠려면 view -> home -> index.cshtml\nhello.cshtml => index.cshtml 이름 변경\n\n(2) 그냥 웹에 출력\n새 폴더를 만들고 새 폴더에서\ndotnet new web\ndotnet run\n브라우저에서\nhttps://localhost:5001\n기본화면 생성\n\n기본화면 고칠려면 Startup.cs 고침\n한글 출력은 context.Response.ContentType = \"text/plain; charset=utf-8\"; 추가\n\n(3) 콘솔에 출력\n새 폴더를 만들고 새 폴더에서\ndotnet new console\ndotnet run\n기본 출력\n기본 출력 고칠려면 Program.cs 고침",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2018-07-16T21:05:15.703000",
+  "updatedAt": "2018-07-16T22:42:56.508000"
+}

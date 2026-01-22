@@ -1,0 +1,13 @@
+{
+  "id": "186c59ea-498c-475d-96c2-42ed5650259f",
+  "title": "termuxArch 실행",
+  "content": "startarch\n\nThanks for posting. There are a number of ways you can start Arch Linux in Termux.\n\nRun ~/arch/startarch at the bash prompt. The bash shell interpreter is important!\n\nRun startarch if you chose \"copy to $PATH\" during install. The bash shell interpreter is important!\n\nRun chsh and change your login shell to startarch. Option 2 is required for this option to run correctly. When you open a session in Termux, it will login to Arch Linux. Important to undo this change and return to your Termux login, delete .termux/shell since chsh will be unavailable in Arch Linux to change your login shell.\n\nThese are three options. Certainly there a more ways to start an Arch Linux login in Termux on device. For the beginner CLI (Command Line Interface) user, option 2 \"copy to $PATH during install\" is recommended.\n\n나가기 : exit",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2018-08-10T15:15:31.873000",
+  "updatedAt": "2018-08-10T16:23:53.176000"
+}

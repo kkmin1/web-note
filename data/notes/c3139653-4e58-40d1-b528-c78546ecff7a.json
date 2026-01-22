@@ -1,0 +1,15 @@
+{
+  "id": "c3139653-4e58-40d1-b528-c78546ecff7a",
+  "title": "윈도우10 웹서버 구축",
+  "content": "https://jsitclub.tistory.com/56\n\n웹서버의 루트는 \"C:\\inetpub\\wwwroot\\\"\nwwwroot 폴더에 index.html 파일을 만들어 준다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-24T07:14:40.136000",
+  "updatedAt": "2021-04-26T00:36:25.811000"
+}

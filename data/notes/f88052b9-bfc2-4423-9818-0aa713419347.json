@@ -1,0 +1,13 @@
+{
+  "id": "f88052b9-bfc2-4423-9818-0aa713419347",
+  "title": "Tomcat 서버에서 JSP",
+  "content": "/var/lib/tomcat8/webapps/ROOT/test/ 폴더에 jsp 파일 넣고 실행\n\n## 톰캣 관련 명령어\n \n  # 1. Tomcat 설치\n  sudo apt-get install tomcat8\n \n  # 2. Tomcat 제거\n  sudo apt-get remove tomcat8\n \n  # 3. Tomcat 상태 확인\n  ps -ef | grep tomcat\n \n  # 4. Tomcat 버전 확인\n  sudo /usr/share/tomcat8/bin/version.sh\n \n  # 5. Tomcat 시작\n  sudo service tomcat8 start\n \n  # 6. Tomcat 정지\n  sudo service tomcat8 stop\n \n  # 7. Tomcat 재시작\n  sudo service tomcat8 restart\n \n   #  Tomcat 설치경로\n   /usr/share/tomcat8  →  executable &l ibraries\n   /var/lib/tomcat8  →  conf & webapps\n\n#  Tomcat 파일 경로\n/var/lib/tomcat8/webapps/ROOT/JSPtest/\n\n톰캣 자동실행 방지\n\n$ sudo update-rc.d -f tomcat8 disable\n\n다시 자동 실행되게 하고 싶다면\n\n$ sudo update-rc.d -f tomcat8 defaults",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2018-07-15T20:59:08.932000",
+  "updatedAt": "2018-08-06T13:01:08.481000"
+}

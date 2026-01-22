@@ -1,0 +1,15 @@
+{
+  "id": "372828e0-722d-4e2f-9cff-385efa3461fb",
+  "title": "termux 휴대폰 파일시스템",
+  "content": "termux 화면에서 다음 명령 시행\n\n$ termux-setup-storage \n\nstorage 디렉토리가 생김\n\n$ cd storage 하여\n\n% ls 하면\n\n휴대폰의 /storage/emulated/0 이 나온다.\n\n\n여기서 원하는 폴더로 가든지 새로룬 폴더를 생성\n\n예)\ncd /storage/emulated/0/D/kkmin-master\n\ncd /storage/emulated/0/D/workspace\n\ncd /storage/emulated/0/www/public\n\ncd /storage/emulated/0/D/doom/iwad/",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-24T18:27:01.329000",
+  "updatedAt": "2021-05-11T00:20:03.779000"
+}

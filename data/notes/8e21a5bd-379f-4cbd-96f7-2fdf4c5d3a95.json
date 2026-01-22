@@ -1,0 +1,16 @@
+{
+  "id": "8e21a5bd-379f-4cbd-96f7-2fdf4c5d3a95",
+  "title": "Publication bias",
+  "content": "실패한 연구는 발표되지도 않고 그냥 없던 일이 되는 경우가 많습니다. 특히 제약회사 주도 연구가 그런 경우가 많고요. 불리한 데이터는 아예 발표 자체를 안 해버립니다. 신약연구는 대부분 제약회사 주도 연구죠. 모수가 정확히 얼마나 되는지는 아무도 몰라요. 3상 시험 참여해본 사람들은 그런 케이스가 꽤 많다는 사실만 알고 있을 뿐",
+  "color": "default",
+  "labels": [
+    "4138527f-e6f8-4703-a629-ac8b2ca0439c",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-11-08T01:36:04.139000",
+  "updatedAt": "2023-03-13T11:21:18.051000"
+}

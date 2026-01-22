@@ -1,0 +1,15 @@
+{
+  "id": "949c0e58-7704-42e5-8cfb-e9729a768da1",
+  "title": "해의 안정성(tatonnement process)",
+  "content": "수요 공급에 따라 가격이 결정\n단 cobweb model에서 항상 가격은 균형가격으로 수렴하는가?\n\n수요/공급 곡선의 기울기에 따라 해는 균형가격으로 수렴할 수도, 발산할 수도 있다.\n\n균형가격이 불안정할 경우 그 원인은 외부효과(수요곡선 우상향), 규모의 경제(공급곡선 우하향), 소득효과 등이 있다.\n\n(참조 : 연구/동태문제/미분방정식.hwp/미분방정식의 응용/초과수요모형 참조)",
+  "color": "default",
+  "labels": [
+    "898f43eb-c79c-4781-9c09-9e88a458c8c7"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-03-11T22:05:02.287000",
+  "updatedAt": "2019-04-11T14:19:47.957000"
+}

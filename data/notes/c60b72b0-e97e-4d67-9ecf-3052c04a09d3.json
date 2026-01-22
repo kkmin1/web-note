@@ -1,0 +1,15 @@
+{
+  "id": "c60b72b0-e97e-4d67-9ecf-3052c04a09d3",
+  "title": "ladder",
+  "content": "< method 1 >\n\nThe gravity for sector tag 1 is constant at 1/4 and is set via an OPEN script:\n\n#include \"zcommon.acs\" \n\nscript 1 OPEN { \n\n// One-fourth gravity \n\nSector_SetGravity(1, 0, 25);\n\n }\n\n........\nhttps://zdoom.org/zdkb/zdoom10.html\n\n\n< method 2 >\n\n\" It requires the \"climbable\" area to be set up as it's own sector, then uses the 'Actor Enters Sector' and 'Actor Leaves Sector' things to kick off a script that toggles the player's PROP_FLY property when the player enters the sector and is above a specified \"bottom\" z-height, then reverts the PROP_FLY setting when the player leaves the sector or goes above a different \"top\" z-height. The 'ladder' itself can be a model/linedef/wall texture/whatever, but is essentially purely decorative.\"\n\n\nScript \"ToggleFly\" (int EnterExit, int minHeight, int maxHeight)\n\n{\n\n\tIf (EnterExit)\n\n\t{\n\n\t\tDelay(5); //So that this activates *after* adjoining sectors' disable script, if applicable, and doesn't drop you down a Jeffries tube.\n\n\t\tSetPlayerProperty (0, 1, PROP_FLY);\n\n\t\tSetUserVariable(0, \"user_climb\", 1);\n\n\t\tIf (minHeight != maxHeight)\n\n\t\t{\n\n\t\t\tmaxHeight = maxHeight - GetActorProperty(0, APROP_Height) / 2.0;\n\n\t\t\tminHeight = minHeight - GetActorProperty(0, APROP_Height) / 2.0;\n\n\t\t\tWhile (GetUserVariable(0, \"user_climb\") == 1)\n\n\t\t\t{\n\n\t\t\t\tIf (GetActorZ(ActivatorTID()) <= maxHeight << 16 && GetActorZ(ActivatorTID()) >= minHeight << 16)\n\n\t\t\t\t{\n\n\t\t\t\t\tSetPlayerProperty (0, 1, PROP_FLY);\n\n\t\t\t\t}\n\n\t\t\t\tElse\n\n\t\t\t\t{\n\n\t\t\t\t\tSetPlayerProperty (0, 0, PROP_FLY);\n\n\t\t\t\t}\n\n\t\t\t\tDelay(1);\n\n\t\t\t}\n\n\t\t}\n\n\t}\n\n\tElse\n\n\t{\n\n\t\tSetPlayerProperty (0, 0, PROP_FLY);\n\n\t\tSetUserVariable(0, \"user_climb\", 0);\n\n\t}\n\n}\n\n< method 3 >\n\n// TODO: the following is full of dicks\nbool isOnLadder;\nbool isStillOnLadder;\nscript \"ZHexen: Ladder\" (void) {\n   SetPlayerProperty (0, 1, PROP_FLY);\n   if(isOnLadder) {\n      isStillOnLadder = true;\n   } else {\n      isOnLadder = true;\n      PrintBold(s:\"On Ladder\");\n   }\n   \n   delay(8);\n   \n   if(isStillOnLadder) {\n      isStillOnLadder = false;\n   } else {\n      SetPlayerProperty (0, 0, PROP_FLY);\n      PrintBold(s:\"Off Ladder\");\n      isOnLadder = false;\n   }\n}",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-03-07T16:42:14.931000",
+  "updatedAt": "2020-03-07T17:14:10.180000"
+}

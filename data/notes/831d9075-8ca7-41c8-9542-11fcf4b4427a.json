@@ -1,0 +1,16 @@
+{
+  "id": "831d9075-8ca7-41c8-9542-11fcf4b4427a",
+  "title": "GBU-57 (MOP) vs 현무-5",
+  "content": "![image](media/1750831892288.807091644.png)\n\n\nGBU-57 (MOP)\n중력 낙하 방식 + 고중량으로 관성 관통력을 활용.\n탄체 자체가 초강철로 제작되어 내부에 폭발 없이도 높은 관통 가능.\n고도 10km에서 13.5톤 투하\n(B-2는 GBU-57 MOP 투하 시 고고도에서 정밀 유도 투하를 선호하며, 이는 약 20,000~40,000피트 (6,096~12,192미터)에서 이루어질 가능성이 높다.)\n\n탄두중량 : 약 2.4톤 고폭탄\n관통력:일반 콘크리트 기준 약 60m, 암반 기준 약 10~20m\n단점: 항공기 접근 필요, 스텔스 플랫폼(B-2) 필수.\n\n\n현무-5\n탄두만 8~9톤급의 관통형 탄두를 장착한 초대형 단거리 탄도미사일.\n발사중량은 36톤이나 추진 로켓은 소모 및 분리되고, 낙하하는 부분은 탄두(8~9톤)와 유도 장치뿐.\n\n발사 방식: 콜드 런치 방식, 고도 1,000km까지 상승 후 마하 10 속도로 수직 낙하, 운동 에너지 극대화.\n운동에너지로 벙커를 뚥고 내부에서 폭발.\n지하 30m 이상의 강화 콘크리트 + 암반층도 관통 가능하다고 방위사업청은 언급.\n관통력:흙 약 100m, 암반 최대 30~35m 이상 (추정)\n탄두중량 : 8~9톤급 관통탄 (특수 개량형)\n장점: 지상 발사, 고속 타격, 실시간 배치 가능.\n\n\n고도 10km에서 13.5톤짜리 물체가 떨어지는 것과 고도 1000km에서 8톤짜리 물체가 떨어지는 것은 관통력에서 어느 정도의 차이가 날까?\n\n[chatgpt]\n현무5가 운동에너지는 약 56배 높지만, 관통 깊이는 약 4~5배 정도 향상될 수 있다는 것이 현실적인 추정입니다.\n\n[gemini]\n공기 저항과 고도에 따른 중력 변화를 무시하고 계산했을 때, 고도 1000km에서 8톤짜리 물체가 떨어지는 경우의 운동 에너지는 고도 10km에서 13.5톤짜리 물체가 떨어지는 경우보다 약 59배 더 큽니다.\n\n[grok]\n현무-5 탄두의 운동 에너지는 GBU-57 MOP보다 약 33배 높습니다.\n\n[qwen]\n이론적 에너지는 현무5가 약 60배, 실제로도 지표면 도달 시 약 10배 이상 차이가 날 수 있음.\n\n\nAs we have been reporting, an early Pentagon intelligence assessment of America's attack on Iran on Saturday has cast doubt on the administration's claims that the nuclear programme was \"obliterated\".\nThe US struck three nuclear facilities in Iran - Fordo, Natanz and Isfahan - with \"bunker buster\" bombs capable of penetrating 18m (60ft) of concrete or 61m (200ft) of earth before exploding.\nBut sources familiar with the assessment say Iran's centrifuges are largely \"intact\" and the impact was limited to aboveground structures.\nEntrances to two nuclear facilities were sealed off, and some infrastructure was destroyed or damaged but much of the facilities, which are deep underground, were intact.\nThe anonymous sources told US media it is estimated the attack only set Iran back \"a few months, tops\", and that any resumption of its nuclear programme may be based on how long it takes the country to dig out and make repairs.",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d",
+    "9dde1e04-dd34-4201-bce0-c559b528d7a5"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-06-24T22:53:03.110000",
+  "updatedAt": "2025-06-25T15:11:32.770000"
+}

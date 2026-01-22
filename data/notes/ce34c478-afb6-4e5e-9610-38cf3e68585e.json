@@ -1,0 +1,17 @@
+{
+  "id": "ce34c478-afb6-4e5e-9610-38cf3e68585e",
+  "title": "휴대폰 액정 먹통",
+  "content": "버튼만으로 시스템 끄기\n\n전원버튼 + 볼륨버튼 아래것 => 7초 이상 동시에 누르기",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "cfb0bd80-b93f-470e-8dbd-0ec7c53a7757",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-05-14T23:29:36.753000",
+  "updatedAt": "2023-05-14T23:29:36.753000"
+}

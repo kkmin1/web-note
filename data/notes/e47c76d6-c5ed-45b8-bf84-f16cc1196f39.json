@@ -1,0 +1,15 @@
+{
+  "id": "e47c76d6-c5ed-45b8-bf84-f16cc1196f39",
+  "title": "신호게임",
+  "content": "https://poe.com/s/dFmKbHjhU4ZLeXFRkGCK\n\n물론입니다. 신호게임의 게임트리를 LaTeX로 작성할 수 있습니다. 다음은 신호게임의 예시인 \"미션 인플레이브\"에 대한 게임트리의 LaTeX 코드 예시입니다:\n\n\\documentclass{article}\n\\usepackage{tikz}\n\\usetikzlibrary{trees}\n\n\\begin{document}\n\n\\begin{center}\n\\begin{tikzpicture}[\n  level 1/.style={sibling distance=6cm},\n  level 2/.style={sibling distance=3cm},\n  level 3/.style={sibling distance=1.5cm},\n  level 4/.style={sibling distance=0.8cm}\n]\n\\node {미션 인플레이브}\n  child {node {수비자}\n    child {node {공격자}\n      child {node {(-2, -2)}}\n      child {node {(0, -3)}}\n      child {node {(1, -1)}}\n    }\n    child {node {수비자}\n      child {node {(-1, 0)}}\n      child {node {(0, 0)}}\n      child {node {(0, 1)}}\n    }\n    child {node {협력자}\n      child {node {(0, -1)}}\n      child {node {(1, 0)}}\n      child {node {(2, 2)}}\n    }\n  }\n  child {node {공격자}\n    child {node {수비자}\n      child {node {(-3, 0)}}\n      child {node {(0, -1)}}\n      child {node {(0, 0)}}\n    }\n    child {node {공격자}\n      child {node {(-1, -1)}}\n      child {node {(-1, 0)}}\n      child {node {(1, 1)}}\n    }\n    child {node {협력자}\n      child {node {(-2, -2)}}\n      child {node {(1, 0)}}\n      child {node {(2, 1)}}\n    }\n  }\n  child {node {협력자}\n    child {node {수비자}\n      child {node {(0, 2)}}\n      child {node {(-1, 0)}}\n      child {node {(1, 1)}}\n    }\n    child {node {공격자}\n      child {node {(-1, -1)}}\n      child {node {(0, 1)}}\n      child {node {(1, 0)}}\n    }\n    child {node {협력자}\n      child {node {(1, 1)}}\n      child {node {(1, 2)}}\n      child {node {(2, 2)}}\n    }\n  };\n\\end{tikzpicture}\n\\end{center}\n\n\\end{document}\n\n위의 LaTeX 코드를 사용하여 신호게임의 게임트리를 작성하면, 해당 게임의 모든 가능한 선택과 해당 결과를 나타낼 수 있습니다.",
+  "color": "default",
+  "labels": [
+    "4c2e72b8-0cf2-48f3-b5fa-5ad39f6b68ea"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2024-05-09T22:21:04.870000",
+  "updatedAt": "2024-05-09T22:21:46.076000"
+}

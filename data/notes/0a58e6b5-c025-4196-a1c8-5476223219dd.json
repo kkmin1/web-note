@@ -1,0 +1,15 @@
+{
+  "id": "0a58e6b5-c025-4196-a1c8-5476223219dd",
+  "title": "html 파일 링크 깨짐",
+  "content": "구글의 보안 정책 때문에 html 파일에서 내부 파일 연결이 안됨.\n\n이 때는 자체 웹서버를 구축하여 실행\n\n-- 휴대폰의 경우 앱 서버 사용, 또는 node.js로 웹서버 구축.\n-- 윈도우의 경우 미니 웹서버 구축. '구글 keep/코드'의  문서 참조(잘 안됨, 이유 모름)\n\n<node.js 구축시>\n- 서버를 실행하는 *.js 파일을 만듬\n- *.js 파일을 실행 원하는 파일이 있는 폴더에 넣고 \nnode *.js 실행\n- 브라우저 주소창에 localhost:port/myfile.html 실행\n\n<윈도우 node.js 이용>\nserver.js 파일을 kkmin-master 폴더에 넣고\nserver.js 파일에 설정된 주소로 접속하면 index.html 파일이 열림",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-25T13:53:24.582000",
+  "updatedAt": "2021-04-26T01:59:45.608000"
+}

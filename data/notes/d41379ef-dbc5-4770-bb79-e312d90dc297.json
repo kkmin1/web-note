@@ -1,0 +1,15 @@
+{
+  "id": "d41379ef-dbc5-4770-bb79-e312d90dc297",
+  "title": "수학의 접근방법",
+  "content": "![image](media/1870cbed910.b0613a14af73f6de.png)\n\n\n\n• 알고리듬 방식 -> 일차원적, 공식을 사용한 단계적 풀이, 직렬처리\n\n• 이미지 추론 방식 -> 이차원적, 깨봉수학, 병렬처리\n\n그리에서 구부진 길을 갈 경우 평면적으로 보면 직선 코스가 더 빠르다.",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-03-23T13:29:48.066000",
+  "updatedAt": "2023-03-23T14:13:06.694000"
+}

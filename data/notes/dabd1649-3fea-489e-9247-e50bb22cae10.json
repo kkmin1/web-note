@@ -1,0 +1,15 @@
+{
+  "id": "dabd1649-3fea-489e-9247-e50bb22cae10",
+  "title": "VerbTeX",
+  "content": "VerbTeX doesn't run LaTeX on your phone. All files are uploaded to an online server, VerbTeX runs LaTeX on your document in that server, and then the output .pdf is downloaded back to your phone. This means that the path /storage doesn't exist there, thus your image won't be found.\n\nTo use images you have to place them manually in the folder of your project so that when the files are uploaded to the remote server, the images are uploaded as well. On my phone, the folder is located in /storage/Android/data/verbosus.verbtex/files/Local/<project-name>. I pasted an image file in there and (after quite a while, to upload and then download the whole thing) the .pdf file showed up correctly.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-06-05T22:52:08.819000",
+  "updatedAt": "2023-02-21T09:07:51.244000"
+}

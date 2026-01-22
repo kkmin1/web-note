@@ -1,0 +1,15 @@
+{
+  "id": "34234d5b-940a-491a-b11d-c2663cb63e9d",
+  "title": "charge",
+  "content": "1. 충전   2.  요금   3.  혐의   4.  기소   5.  책임\n\na false charge 무고죄\nsex trafficking charges 성매매 혐의",
+  "color": "default",
+  "labels": [
+    "a5c06cbb-8579-44ca-9e9a-cd1c997f4b97"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-07-19T15:25:40.193000",
+  "updatedAt": "2025-07-19T15:30:14.937000"
+}

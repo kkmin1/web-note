@@ -1,0 +1,13 @@
+{
+  "id": "0d42b639-692f-43d1-82a0-c29719397f92",
+  "title": "termux elixir 설치",
+  "content": "curl -fsSL https://git.io/termux | bash -s -- --zsh --elixir",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2018-08-11T12:00:35.036000",
+  "updatedAt": "2018-08-11T12:00:35.036000"
+}

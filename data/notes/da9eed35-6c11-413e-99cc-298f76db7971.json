@@ -1,0 +1,13 @@
+{
+  "id": "da9eed35-6c11-413e-99cc-298f76db7971",
+  "title": "리지고반 기보분석",
+  "content": "참고로, 타이젬에서 대국하신 기보가 자동으로 저장되는 위치는 C:\\Program Files (x86)\\타이젬바둑 2.0\\Gibo 이고요, 오로바둑의 경우는 C:\\CyberOrO\\Gibo 안에 기보가 저장됩니다.\n\n한국기원 바둑기보 주소 복사\n온라인에서 불러오기\n주소 붙여넣기\n주소에서\ngibo.asp -> sfgdownload.asp 로 변경",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-03-06T11:39:08.530000",
+  "updatedAt": "2020-03-06T11:45:20.680000"
+}

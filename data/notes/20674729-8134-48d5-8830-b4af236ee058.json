@@ -1,0 +1,15 @@
+{
+  "id": "20674729-8134-48d5-8830-b4af236ee058",
+  "title": "custom key",
+  "content": "// in decorate\n\n//===========================================================================\n//\n// Orange Card\n//\n//===========================================================================\nACTOR OrangeCard : Key 100\n{\n   Inventory.PickupMessage \"Picked up an orange keycard.\"\n   Inventory.Icon \"OKEYA0\"\n   States\n   {\n   Spawn:\n      OKEY A 10\n      OKEY B 10 BRIGHT\n   }\n}\n\n// in lockdefs lump\n// key number는 1과 255 사이, 단 기존 1,2,3,4,5,6,100,101129,130,131,132,133,134,229 제외\nLock 7 \n{\n   OrangeCard\n   Message \"You need an orange card to open this door\"\n   Mapcolor 255 128 0\n}",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-03-22T17:09:35.948000",
+  "updatedAt": "2024-01-15T19:47:43.015000"
+}

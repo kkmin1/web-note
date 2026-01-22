@@ -1,0 +1,15 @@
+{
+  "id": "4732b2b2-978b-44e3-bd56-dfd9587994a1",
+  "title": "shell script cd 명령어",
+  "content": "cd directory\n\n위 명령 적은 파일 작성\n\n1. 실행\n> . filename\n\n2. 실행\n\n> source filename\n\n3. \n\ncd directory\n$SHELL\n\n위 명령 적은 파일 작성\n\n> bash filename",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-05T15:41:37.844000",
+  "updatedAt": "2021-05-09T06:56:01.818000"
+}

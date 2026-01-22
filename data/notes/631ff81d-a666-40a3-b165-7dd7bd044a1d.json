@@ -1,0 +1,15 @@
+{
+  "id": "631ff81d-a666-40a3-b165-7dd7bd044a1d",
+  "title": "abc notes",
+  "content": "when there are more than one tune in \n\na file (X:)\ntitle (T:)\ntime signature (M:), \ndefault note length (L:), \ntype of tune (R:) \nkey (K:). \n\nLines following the key designation represent the tune.",
+  "color": "default",
+  "labels": [
+    "ba127a5f-e290-4c01-88d9-69b7ff1eff03"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-30T14:53:50.519000",
+  "updatedAt": "2021-05-30T14:55:02.689000"
+}

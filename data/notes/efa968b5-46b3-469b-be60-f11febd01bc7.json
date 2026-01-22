@@ -1,0 +1,15 @@
+{
+  "id": "efa968b5-46b3-469b-be60-f11febd01bc7",
+  "title": "원도우에서 배시 쉘(Bash Shell) 실행",
+  "content": "Git 프로그램을 설치\n\n1 .탐색기 -> 디렉토리 -> 마우스 오른쪽 클릭 \"Git Bash Here\"클릭\n-> sh  실행\n\n2. vscode -> terminal pull down -> git bash -> sh  실행",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-07T11:04:23.184000",
+  "updatedAt": "2021-05-07T11:21:10.972000"
+}

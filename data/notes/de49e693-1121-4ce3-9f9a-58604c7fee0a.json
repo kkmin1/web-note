@@ -1,0 +1,15 @@
+{
+  "id": "de49e693-1121-4ce3-9f9a-58604c7fee0a",
+  "title": "master equation",
+  "content": "![image](media/16981413056.956b7955fa898c15.jpg)\n![image](media/16981413068.8118f1950d4a3c80.jpg)\n![image](media/1698141307c.a71765262e82e69a.jpg)\n![image](media/1698141308f.aef728f3b3846d8f.jpg)\n![image](media/169814130a0.bc2c9efe3c38532a.jpg)\n![image](media/169814130b3.841952ea481d4538.jpg)\n![image](media/169814130d7.893bee9b69f36dc2.jpg)\n![image](media/08277d37-c89b-47d2-98b3-cb716d6eb62c.png)\n\n\n\n\n연속시간에서 시스템이 한 상태에서 다른 상태로 전환하는 마르코브 확률의 변환을 묘사하는 방정식\n\n상태는 1, 2\np1(t) : 시간 t에 상태 1에 있을 확률\np2(t) : 시간 t에 상태 1에 있을 확률\nw(1->2) : 상태1에서 상태2로 전환하는 비율\np1(t+dt) = p1(t)p(상태1에 머뭄) + p2(t)p(상태2에서 상태1로 이동)\n\n\nthe probability of jumping from 2 to 1 in the time interval(t, t + dt) = w(2 ->1)dt \nwhereas the probability of staying in state 1 \n= 1 - theprobability of leaving state 1 in the same time interval = 1 - w(1->2)dt\n\np1(t + dt) = p1(t)[1 - w(1->2)dt] + p2(t)[w(2 ->1)dt] + O(dt^2)",
+  "color": "default",
+  "labels": [
+    "0e59aec6-754e-4c02-893c-70f18f19c937"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-03-15T20:47:07.631000",
+  "updatedAt": "2023-04-20T21:03:57.887000"
+}

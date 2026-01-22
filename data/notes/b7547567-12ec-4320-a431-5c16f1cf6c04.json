@@ -1,0 +1,13 @@
+{
+  "id": "b7547567-12ec-4320-a431-5c16f1cf6c04",
+  "title": "gzdoom cheat",
+  "content": "~ key ; console 창\n\n치트키 쓰면 다음 메세지가 뜸\n\nsv_cheats must be true to enable this command\n\ntype 'sv_cheat true'\n\nnew game 시작\n\nmap cheat : \n\nam_cheat (integer)\ndefault: 0\nThe status of the automap cheat. This value can be changed directly from the console to cheat, or it can be modified the old fashioned way with cheat codes. Valid values are:\n0: No cheat. Only level architecture the player has seen is shown.\n1: All architecture is shown, regardless of whether or not the player has seen it. Equivalent to one input of the Doom iddt cheat.\n2: In addition to the previous, shows all things in the map as arrows pointing in the direction they are facing. Equivalent to two inputs of the Doom iddt cheat.\n3: In addition to the previous, all things are wrapped in a box showing their size. There is no iddt cheat for this, as this functionality was added to ZDoom and is not a carryover from vanilla Doom.\n4-6: They are the same as modes 1-3, respectively, except that lines flagged as \"hidden\" are not shown.",
+  "color": "default",
+  "labels": [],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2019-04-14T14:28:21.624000",
+  "updatedAt": "2019-04-14T14:43:12.574000"
+}

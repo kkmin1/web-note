@@ -1,0 +1,15 @@
+{
+  "id": "19a06a30-5ee2-476c-bf93-1976ae1c1169",
+  "title": "혼합전략",
+  "content": "전략의 갯수를 늘릴수록 균형에서 확률이 낮아진다.\n\n상대방이 맞출 확률이 낮아짐\n\n따라서 전략(대안)의 갯수를 늘리는 것이 유리",
+  "color": "default",
+  "labels": [
+    "4c2e72b8-0cf2-48f3-b5fa-5ad39f6b68ea"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-05-25T11:26:24.515000",
+  "updatedAt": "2022-05-22T20:03:01.505000"
+}

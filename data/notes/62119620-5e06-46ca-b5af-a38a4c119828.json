@@ -1,0 +1,15 @@
+{
+  "id": "62119620-5e06-46ca-b5af-a38a4c119828",
+  "title": "node.js로  web server 만들기",
+  "content": "1. d/node.js 앱 활용\n파일 메뉴에서 폴더 내의 서버 실행 파일 선택\n(express 라이브러리를 설치하면 서버 실행 코드가\n간단해짐)\n\n2. termux에 node.js 설치\n   >>  node server.js 실행\n\n안드로이드 보안정책 때문에 휴대폰에 express 설치 않됨\n   \n스크립트의 주소를 브라우저에 입력하면 메세지가 뜸\n\nhttps://online.codingapple.com/unit/nodejs-4-server-get-request/?id=1826\n\n예)\nkkmin master 폴더 내 server.js를 실행\n\n\n<min's blog로 연결>\n\nlocalhost 주소 입력 후 index.html\n\n블로그 내 링크가 깨진 것이 있으면 에러난다.\n다시 시작",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-23T12:06:30.637000",
+  "updatedAt": "2021-04-29T11:51:52.191000"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "d3e0f3cb-0277-4017-8feb-0f3b5ba6ba09",
+  "title": "가상 키보드",
+  "content": "1. 가상 키보드 단축키\n \n가상 키보드를 빠르게 사용하고 싶으시다면 Windows 로고 키+Ctrl+O키\n\n2. 작업 표시줄에서 열기\n\n작업표시줄에 마우스 커서를 대고 우클릭하시면 옵션 설정 탭이 나오는데 여기서 터치 키보드 단추 표시를 체크",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "cfb0bd80-b93f-470e-8dbd-0ec7c53a7757"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-03-25T04:32:20.202000",
+  "updatedAt": "2023-03-25T04:34:02.983000"
+}

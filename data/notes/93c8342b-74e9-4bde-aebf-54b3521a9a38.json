@@ -1,0 +1,15 @@
+{
+  "id": "93c8342b-74e9-4bde-aebf-54b3521a9a38",
+  "title": "notepad++의 커서가 너무 가늘어서 잘 안보이는데 좀 더 굵게 하는 방법",
+  "content": "설정 (Settings) 메뉴로 이동합니다.\n\n스타일 설정 (Style Configurator)을 선택합니다.\n\n왼쪽 목록에서 Global Styles를 선택합니다.\n\n오른쪽의 Colour Options 섹션에서 Caret Colour (커서 색상)를 선택하고 배경색과 대비되는 밝거나 진한 색상(예: 밝은 배경에 빨간색, 어두운 배경에 흰색 등)으로 변경합니다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-12-14T20:02:55.923000",
+  "updatedAt": "2025-12-14T20:05:43.496000"
+}

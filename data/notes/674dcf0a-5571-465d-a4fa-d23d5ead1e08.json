@@ -1,0 +1,15 @@
+{
+  "id": "674dcf0a-5571-465d-a4fa-d23d5ead1e08",
+  "title": "미분방정식이 필요한 이유. Why are most natural phenomena described using differential equations?",
+  "content": "Rather than saying the derivative \"means the slope of a function\" it would be better to think \"the derivative is the rate of change of a function\". \"Differential equations\" occur whenever we have information about how a quantity is changing rather than the quantity itself. For example, if we know how fast a population is increasing but want to find the population itself, we need to solve a differential equation.\n\n\nBasically the point is that physical systems are acted on by certain forces, causing gradual change in their state, and the response depends only on the state of the system at the current time: thus the rates of change of the system variables (positions and velocities in mechanics) are functions of those variables. That is exactly what a differential equation is (with time as the independent variable).",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-01-21T16:30:42.500000",
+  "updatedAt": "2025-01-21T16:47:28.335000"
+}

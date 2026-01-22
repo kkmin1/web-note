@@ -1,0 +1,16 @@
+{
+  "id": "5fc0545e-1feb-4d36-bcab-d1f598692138",
+  "title": "구글 스프레드시트 행 또는 열 고정/고정 취소하기",
+  "content": "Android 스마트폰 또는 태블릿의 Google 스프레드시트 앱에서 스프레드시트를 엽니다.\n행 또는 열을 길게 터치합니다.\n메뉴가 표시되면 고정 또는 고정 취소를 탭합니다.",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf",
+    "3eb0cfd5-dae1-4185-9fcc-6a2b31fecda2"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-02-10T11:28:22.465000",
+  "updatedAt": "2021-11-14T14:52:44.895000"
+}

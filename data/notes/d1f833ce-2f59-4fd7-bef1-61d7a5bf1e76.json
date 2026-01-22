@@ -1,0 +1,15 @@
+{
+  "id": "d1f833ce-2f59-4fd7-bef1-61d7a5bf1e76",
+  "title": "autoaim",
+  "content": "https://zdoom.org/wiki/Autoaim\n\nThe behavior of autoaim can be changed from the gameplay options menu with the \"Smart autoaim\" option.\n\nplayer setup(gameplay) option -> (Smart) autoaim = 0",
+  "color": "default",
+  "labels": [
+    "84e19aef-d484-433a-977c-0b99c92d96a0"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-11-12T12:05:47.410000",
+  "updatedAt": "2020-11-29T22:33:43.593000"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1b552330-9bb4-4b66-ba63-45875c9e0e4b",
+  "title": "마우스 우클릭하면 블록 지정이 깨짐",
+  "content": "네이버 웨일 브라우저에서 마우스 좌클릭으로 블록 지정후 마우스 우클릭하면 블록 지정이 깨지는데 해결 방법은? \n\n웨일 브라우저 실험실 기능 중 ‘context menu’ 관련 설정 확인\n\n주소창에 입력: whale://flags\n\n검색 : context menu \n\nSort sidebar panels => enable로 하니까 해결",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2025-06-27T13:48:29.788000",
+  "updatedAt": "2025-06-27T13:50:39.591000"
+}

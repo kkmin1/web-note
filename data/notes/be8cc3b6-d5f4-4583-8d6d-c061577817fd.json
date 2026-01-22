@@ -1,0 +1,15 @@
+{
+  "id": "be8cc3b6-d5f4-4583-8d6d-c061577817fd",
+  "title": "repeated game",
+  "content": "Cooperation, punishment, and forgiveness can be strategies in subgame-perfect Nash equilibrium, but it depends on the specific game being played.\n\nA subgame-perfect Nash equilibrium is a set of strategies in which no player can benefit by unilaterally deviating from their strategy at any point in the game. In other words, it is a Nash equilibrium that is optimal not only for the overall game, but also for each subgame that arises at any point during the game.\n\nCooperation, punishment, and forgiveness can all potentially be part of a subgame-perfect Nash equilibrium in a repeated game. For example, in the famous Prisoner's Dilemma game played repeatedly, the \"tit-for-tat\" strategy, which involves cooperating in the first round and then mimicking the opponent's previous move in subsequent rounds, is a subgame-perfect Nash equilibrium strategy.\n\nPunishment and forgiveness can also be part of subgame-perfect Nash equilibrium strategies in repeated games. For instance, in a repeated ultimatum game, where one player proposes a split of a fixed amount of money and the other player decides whether to accept or reject the proposal, the proposer may use punishment by decreasing their offer if the responder rejects a fair proposal, but may also use forgiveness by increasing their offer again if the responder accepts the lower offer.\n\nOverall, whether cooperation, punishment, and forgiveness are subgame-perfect Nash equilibrium strategies depends on the specific repeated game being played and the strategic interaction between the players.",
+  "color": "default",
+  "labels": [
+    "4c2e72b8-0cf2-48f3-b5fa-5ad39f6b68ea"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-03-22T06:55:13.358000",
+  "updatedAt": "2023-03-22T06:58:26.737000"
+}

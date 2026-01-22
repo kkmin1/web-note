@@ -1,0 +1,15 @@
+{
+  "id": "970262f0-8ad6-452e-abe4-f4e426029068",
+  "title": "ngrok",
+  "content": "로컬 서버를 공개 서버로\nNgrok은 로컬 개발 환경에서 인터넷을 통해 웹 애플리케이션에 안전하게 접근할 수 있도록 해주는 도구입니다. 보안 연결을 통해 인터넷에서 서버를 실행할 수 있으며, 웹 애플리케이션을 외부에 노출시키지 않고도 테스트할 수 있습니다. \n\n./ngrok config add-authtoken 2cF8UhORCMeWIQ8EUIN55Bvxz75_6dmR694UfqX2RxA6oxKgv\n\n./ngrok http http://localhost:8080\n\n\n https://5b02-122-46-251-175.ngrok-free.app",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2024-02-12T09:11:23.905000",
+  "updatedAt": "2025-12-10T17:31:10.445000"
+}

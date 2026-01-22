@@ -1,0 +1,15 @@
+{
+  "id": "18c0fabd-e479-410a-a7be-4dd766467582",
+  "title": "터키 AKINCI UCAV ",
+  "content": "1. 사양 \n\n-- 20m 날개 길이, \n--12,5m 길이 \n-- 높이 4,1m \n-- 40,000 피트.\n -- 24 시간 지속\n - -최대 이륙 중량 5,5 톤 \n-- 가반 하중 1.350kg\n- -각각 550 마력 (또는 2 x 750 마력)을 생성하는 2 개의 터보프롭 엔진으로 구동 \n\n2. 기능\n \n--SatCom \n--CATS FLIR\n --광역 감시 시스템 \n --ELINT (전자 지능) \n--SIGINT (신호 지능)\n--ESM 포드 \n--충돌 방지 시스템 \n--다목적 AESA 항공 레이더\n--AR / GMTI 레이더. \n--SAR (합성 조리개 레이더) \n--EW 포드 \n\n6 대의 인공 지능 컴퓨터 탑재 :\n --자동 매핑 및 지형 스캔\n --자동 표적 인식 및 평가\n --GPS 분실시에도 내비게이션을위한 AI Avionics\n --네트워크 기능 \n--떼 기능 \n\n3. 무장\n\n--MAM-L \n--MAM-C\n--CIRIT \n--Mk81 및 Mk82 범용 폭탄\n --다양한 가이던스 키트가 포함 된 스마트 군수 (HGK, KGK, LGK 등)\n --SOM ALCM (크루즈 미사일 350km 이상)\n  --BOZDOĞAN 공대공 미사일-25km 이상 (미국 AIM-9와 동일한 범위)\n  --GOKDOGAN 공대공 미사일-65km 이상 (미국 AIM-120과 동일한 범위)",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2020-11-14T07:47:44.824000",
+  "updatedAt": "2020-11-21T09:13:59.396000"
+}

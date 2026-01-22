@@ -1,0 +1,15 @@
+{
+  "id": "a8061ab0-5c2c-4716-95d6-37c4f10a70c2",
+  "title": "폭약의 작약량",
+  "content": "40x46mm 저속유탄 M381 HE, Comp B 32g\n40x46mm 저속유탄 M433 HEDP, Comp A5 45g\n40x53mm 고속유탄 M383 HE, Comp A5 54.5g\n20x102mm M56A3 HEI, H-761 10.7g\n25x137mm M792 HEI, H-761 30.2g\n30x113mm M789 HEDP, PBXN-5 22g\n30x170mm K161 HEI, Hexal 40g\n30x170mm K160 HEI-T, Hexal 25g\n30x173mm Mk.238 HEI, PBXN-5 56g\n35x228mm K202KA1 HEI-SD, HEXAL 112g\n40x365mm K216 HEI-T, HEXAL 104g\n40x365mm K218 PFHE, Comp A3 110g\n40x365mm 3P, PBX 120g\n57x438mm 3P, PBX 460g\n\n60mm 박격포 M56A4 HE, Comp.B 190g\n60mm 박격포 K207 HE, Comp.B 370g\n81mm 박격포 M374 HE, Comp.B 950g\n81mm 박격포 K247 HE, Comp.B 900g\n4.2 in 박격포 M329A1 HE, TNT 3.38 kg\n120mm 박격포(활강) M57 HE, TNT 2.1 kg\n120mm 박격포(활강) M934 HE, Comp.B 2.99 kg\n120mm 박격포(강선) PR-14 HE, TNT 4.2 kg\n120mm 박격포(강선) PR AB HE, TNT 4.45 kg\n\n\n105mm M1 HE, TNT 2.18 kg, Comp.B 2.3 kg\n155mm M107 HE, TNT 6.62 kg, Comp.B 6.98 kg\n155mm M795 HE, TNT or IMX-101 10.8 kg\n155mm L15A1 HE, Comp.B 11.3 kg\n8 in M106 HE, TNT 16.6 kg, Comp.B 17.6 kg + TNT 0.136 kg\n\nM15 대전차 지뢰 : M15 콤포지션 9kg",
+  "color": "default",
+  "labels": [
+    "7614a8cc-7612-44a0-80ce-fcaffc04867d"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2023-11-25T07:53:01.116000",
+  "updatedAt": "2023-12-01T07:33:30.004000"
+}

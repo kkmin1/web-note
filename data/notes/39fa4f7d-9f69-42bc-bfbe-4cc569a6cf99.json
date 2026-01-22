@@ -1,0 +1,15 @@
+{
+  "id": "39fa4f7d-9f69-42bc-bfbe-4cc569a6cf99",
+  "title": "ladder theorem",
+  "content": "![image](media/17a504c565f.8a1adc2fa322c4ba.jpg)\n![image](media/17a504c5665.8513719f72b3134e.jpg)\n![image](media/17a504c566b.beb234e635d877ca.jpg)\n![image](media/17a504c5671.82ed9b2009878ac8.jpg)\n![image](media/17a504c5677.9e69c8d96c3a5186.jpg)\n![image](media/17a504c567d.85f3b7266c2d5802.jpg)\n![image](media/17a504c5683.b6ef1e7cd6e16c13.jpg)\n![image](media/17a504c568b.8f9f1678f244de53.jpg)\n![image](media/17a504c5691.a37a23e1b4c020ea.jpg)\n![image](media/17a504df25e.878d34185d8f47cd.jpg)\n\n\n\nt : 전체 삼각형의 면적\n\nladder theorem \n1/t + 1/b = 1/(a+b) + 1/(b+c)\n\na = 3, b = 4, c = 2 이므로\n\n1/t + 1/4 = 1/7 + 1/6\n\n(t+4)/4t = 13/42\n\n52t = 42t+168\n\nt = 16.8\n\n∴ x + y = 16.8 - (3+4+2) = 7.8\n\n\n(ladder theorem 증명)\n\nhttps://www.google.com/url?sa=t&source=web&rct=j&url=https://m.youtube.com/watch%3Fv%3Di4gJQN4YRt0&ved=2ahUKEwiF0sKhl7nxAhWTbysKHRoVDvsQxa8BegQIDBAE&usg=AOvVaw2ilaCl3BgG32-RwrcuDExp",
+  "color": "default",
+  "labels": [
+    "3a5458fa-fe2a-458c-b9df-9f2ef21461d8"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-06-28T10:12:20.195000",
+  "updatedAt": "2023-12-24T08:17:00.122000"
+}

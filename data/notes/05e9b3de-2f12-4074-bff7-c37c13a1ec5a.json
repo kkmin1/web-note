@@ -1,0 +1,15 @@
+{
+  "id": "05e9b3de-2f12-4074-bff7-c37c13a1ec5a",
+  "title": "termux에서 elixir 설치 및 사용",
+  "content": "pkg install elixir\n\n<interactive mode>\n$ iex 타이핑",
+  "color": "default",
+  "labels": [
+    "53f6ec6c-841a-4ea4-a381-5d977aafd7cf"
+  ],
+  "pinned": false,
+  "archived": true,
+  "inTrash": false,
+  "reminder": null,
+  "createdAt": "2021-04-24T18:23:26.031000",
+  "updatedAt": "2021-04-24T18:25:10.725000"
+}
