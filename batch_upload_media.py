@@ -4,7 +4,8 @@ import time
 
 GIT_PATH = r"C:\Program Files\Git\bin\git.exe"
 MEDIA_DIR = "media"
-BATCH_SIZE = 100
+BATCH_SIZE = 30  # Smaller batch size for stability
+DELAY_BETWEEN_BATCHES = 5 # Seconds to wait between pushes
 
 def run_git(args):
     try:
@@ -20,40 +21,52 @@ def main():
         print("Media directory not found.")
         return
 
-    # Get all untracked or modified files in media/
-    files = []
-    for f in os.listdir(MEDIA_DIR):
-        fpath = os.path.join(MEDIA_DIR, f)
-        if os.path.isfile(fpath):
-            files.append(fpath)
-
+    # Get files that are NOT yet committed in the media directory
+    # Using 'git ls-files --others --modified media' to find untracked/modified files
+    output = run_git(["ls-files", "--others", "--modified", MEDIA_DIR])
+    if output is None:
+        return
+    
+    files = [f.strip() for f in output.splitlines() if f.strip().startswith(MEDIA_DIR)]
+    
     total_files = len(files)
-    print(f"Found {total_files} files in {MEDIA_DIR}.")
+    if total_files == 0:
+        print("No new or modified media files to upload.")
+        return
+
+    print(f"Found {total_files} files to upload.")
 
     for i in range(0, total_files, BATCH_SIZE):
         batch = files[i:i + BATCH_SIZE]
-        print(f"Processing batch {i//BATCH_SIZE + 1} ({i} to {min(i+BATCH_SIZE, total_files)})...")
+        batch_num = i//BATCH_SIZE + 1
+        total_batches = (total_files + BATCH_SIZE - 1) // BATCH_SIZE
         
-        # Add files
+        print(f"[{batch_num}/{total_batches}] Processing {len(batch)} files...")
+        
+        # Add files in this batch
         run_git(["add"] + batch)
         
-        # Commit
-        run_git(["commit", "-m", f"Upload media batch {i//BATCH_SIZE + 1}"])
+        # Commit this batch
+        run_git(["commit", "-m", f"Upload media batch {batch_num}"])
         
-        # Push
-        print("Pushing to remote...")
-        success = run_git(["push", "origin", "main"])
-        
-        if success:
-            print(f"Batch {i//BATCH_SIZE + 1} uploaded successfully.")
-        else:
-            print(f"Batch {i//BATCH_SIZE + 1} push failed. Waiting 10s and retrying once...")
-            time.sleep(10)
-            if run_git(["push", "origin", "main"]):
-                print("Retry successful.")
-            else:
-                print("Retry failed. Stopping to avoid issues.")
+        # Push with retry logic
+        success = False
+        for attempt in range(3):
+            print(f"  Pushing (attempt {attempt + 1})...")
+            if run_git(["push", "origin", "main"]) is not None:
+                success = True
                 break
+            print("  Push failed, waiting before retry...")
+            time.sleep(10)
+        
+        if not success:
+            print(f"CRITICAL: Failed to push batch {batch_num} after 3 attempts. Stopping.")
+            break
+            
+        print(f"  Batch {batch_num} uploaded. Waiting {DELAY_BETWEEN_BATCHES}s before next batch...")
+        time.sleep(DELAY_BETWEEN_BATCHES)
+
+    print("Upload process finished.")
 
 if __name__ == "__main__":
     main()

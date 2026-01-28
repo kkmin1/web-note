@@ -109,9 +109,25 @@ class KeepNotes {
     // ========================================================================
 
     setupEventListeners() {
-        // Toggle Sidebar
+        // Toggle Sidebar (from within sidebar)
         document.getElementById('sidebarToggle').addEventListener('click', () => {
             document.getElementById('sidebar').classList.toggle('open');
+        });
+
+        // Mobile Menu Button (from header)
+        document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('active');
+        });
+
+        // Sidebar Overlay (close sidebar when clicking outside)
+        document.getElementById('sidebarOverlay').addEventListener('click', () => {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
+            sidebar.classList.remove('open');
+            overlay.classList.remove('active');
         });
 
         // Note input
