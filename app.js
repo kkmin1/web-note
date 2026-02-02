@@ -1,5 +1,5 @@
 // ============================================================================
-// Keep Notes - High Capacity Version (IndexedDB)
+// Keep Notes - High Capacity Version (IndexedDB) - FIXED
 // ============================================================================
 
 class KeepNotes {
@@ -24,6 +24,11 @@ class KeepNotes {
 
     async init() {
         try {
+            // Ensure keepDB is loaded
+            if (!window.keepDB) {
+                throw new Error('Database module not loaded. Please check if db.js is properly included.');
+            }
+
             // Initialize Database
             await window.keepDB.init();
 
@@ -67,7 +72,7 @@ class KeepNotes {
 
             // Check reminders every minute
             setInterval(() => this.checkReminders(), 60000);
-            console.log('Keep Notes (High-Cap) Initialized [v1.0.2]');
+            console.log('Keep Notes (High-Cap) Initialized [v1.0.3]');
         } catch (e) {
             console.error('Initialization failed', e);
             alert('초기화 실패 (콘솔 확인): ' + e.message);
@@ -108,65 +113,75 @@ class KeepNotes {
     // Event Listeners
     // ========================================================================
 
+    // Helper function to safely add event listeners
+    safeAddEventListener(elementId, event, handler) {
+        const element = document.getElementById(elementId);
+        if (element) {
+            element.addEventListener(event, handler);
+        } else {
+            console.warn(`Element not found: ${elementId}`);
+        }
+    }
+
     setupEventListeners() {
         // Toggle Sidebar (from within sidebar)
-        document.getElementById('sidebarToggle').addEventListener('click', () => {
-            document.getElementById('sidebar').classList.toggle('open');
+        this.safeAddEventListener('sidebarToggle', 'click', () => {
+            document.getElementById('sidebar')?.classList.toggle('open');
         });
 
         // Mobile Menu Button (from header)
-        document.getElementById('mobileMenuBtn').addEventListener('click', () => {
+        this.safeAddEventListener('mobileMenuBtn', 'click', () => {
             const sidebar = document.getElementById('sidebar');
             const overlay = document.getElementById('sidebarOverlay');
-            sidebar.classList.toggle('open');
-            overlay.classList.toggle('active');
+            sidebar?.classList.toggle('open');
+            overlay?.classList.toggle('active');
         });
 
         // Sidebar Overlay (close sidebar when clicking outside)
-        document.getElementById('sidebarOverlay').addEventListener('click', () => {
+        this.safeAddEventListener('sidebarOverlay', 'click', () => {
             const sidebar = document.getElementById('sidebar');
             const overlay = document.getElementById('sidebarOverlay');
-            sidebar.classList.remove('open');
-            overlay.classList.remove('active');
+            sidebar?.classList.remove('open');
+            overlay?.classList.remove('active');
         });
 
         // Note input
-        document.getElementById('noteTitle').addEventListener('focus', () => {
-            document.getElementById('noteInput').classList.add('expanded');
+        this.safeAddEventListener('noteTitle', 'focus', () => {
+            document.getElementById('noteInput')?.classList.add('expanded');
         });
 
-        document.getElementById('noteContent').addEventListener('input', (e) => {
+        this.safeAddEventListener('noteContent', 'input', (e) => {
             this.updateCharCounterExcludingImages(e.target.value, 'charCounter');
         });
 
-        document.getElementById('closeNoteBtn').addEventListener('click', () => {
+        this.safeAddEventListener('closeNoteBtn', 'click', () => {
             this.saveNewNote();
         });
 
         // Image upload
-        document.getElementById('addImageBtn').addEventListener('click', () => {
-            document.getElementById('imageInput').click();
+        this.safeAddEventListener('addImageBtn', 'click', () => {
+            document.getElementById('imageInput')?.click();
         });
 
-        document.getElementById('modalAddImageBtn').addEventListener('click', () => {
-            document.getElementById('imageInput').click();
+        this.safeAddEventListener('modalAddImageBtn', 'click', () => {
+            document.getElementById('imageInput')?.click();
         });
 
-        document.getElementById('imageInput').addEventListener('change', (e) => {
+        this.safeAddEventListener('imageInput', 'change', (e) => {
             this.handleImageUpload(e.target.files[0]);
         });
 
         // Checklist
-        document.getElementById('addChecklistBtn').addEventListener('click', () => {
+        this.safeAddEventListener('addChecklistBtn', 'click', () => {
             this.insertChecklistItem('noteContent');
         });
 
-        document.getElementById('modalAddChecklistBtn').addEventListener('click', () => {
+        this.safeAddEventListener('modalAddChecklistBtn', 'click', () => {
             this.insertChecklistItem('modalNoteContent');
         });
 
         // Preview toggle
-        document.getElementById('modalPreviewToggleBtn').addEventListener('click', () => {
+        this.safeAddEventListener('modalPreviewToggleBtn', 'click', () => {
             this.togglePreview();
         });
 
@@ -203,17 +218,17 @@ class KeepNotes {
         });
 
         // Search
-        document.getElementById('searchInput').addEventListener('input', (e) => {
+        this.safeAddEventListener('searchInput', 'input', (e) => {
             this.searchNotes(e.target.value);
         });
 
         // View toggle
-        document.getElementById('viewToggle').addEventListener('click', () => {
+        this.safeAddEventListener('viewToggle', 'click', () => {
             this.toggleView();
         });
 
         // Dark mode toggle
-        document.getElementById('darkModeToggle').addEventListener('click', () => {
+        this.safeAddEventListener('darkModeToggle', 'click', () => {
             this.toggleDarkMode();
         });
 
@@ -226,34 +241,34 @@ class KeepNotes {
         });
 
         // Labels
-        document.getElementById('createLabelBtn').addEventListener('click', () => {
+        this.safeAddEventListener('createLabelBtn', 'click', () => {
             this.createLabel();
         });
 
         // GitHub Setup
-        document.getElementById('githubSetupBtn').addEventListener('click', () => this.setupGitHubSync());
-        document.getElementById('githubSaveBtn').addEventListener('click', () => this.syncAllWithRepo());
-        document.getElementById('githubLoadBtn').addEventListener('click', () => this.loadAllFromRepo());
+        this.safeAddEventListener('githubSetupBtn', 'click', () => this.setupGitHubSync());
+        this.safeAddEventListener('githubSaveBtn', 'click', () => this.syncAllWithRepo());
+        this.safeAddEventListener('githubLoadBtn', 'click', () => this.loadAllFromRepo());
 
         // Local Folder Setup: Implicitly handled via image upload
 
         // Backup
-        document.getElementById('exportBtn').addEventListener('click', () => this.exportNotes());
-        document.getElementById('importBtn').addEventListener('click', () => document.getElementById('importInput').click());
-        document.getElementById('importInput').addEventListener('change', (e) => this.importNotes(e.target.files[0]));
+        this.safeAddEventListener('exportBtn', 'click', () => this.exportNotes());
+        this.safeAddEventListener('importBtn', 'click', () => document.getElementById('importInput')?.click());
+        this.safeAddEventListener('importInput', 'change', (e) => this.importNotes(e.target.files[0]));
 
         // Modal Note
-        document.getElementById('closeModalBtn').addEventListener('click', () => this.closeModal());
-        document.getElementById('pinNoteBtn').addEventListener('click', () => {
+        this.safeAddEventListener('closeModalBtn', 'click', () => this.closeModal());
+        this.safeAddEventListener('pinNoteBtn', 'click', () => {
             if (this.editingNoteId) this.togglePin(this.editingNoteId);
         });
-        document.getElementById('archiveNoteBtn').addEventListener('click', () => {
+        this.safeAddEventListener('archiveNoteBtn', 'click', () => {
             if (this.editingNoteId) {
                 this.toggleArchive(this.editingNoteId);
                 this.closeModal();
             }
         });
-        document.getElementById('deleteNoteBtn').addEventListener('click', () => {
+        this.safeAddEventListener('deleteNoteBtn', 'click', () => {
             if (this.editingNoteId) {
                 this.deleteNote(this.editingNoteId);
                 this.closeModal();
@@ -261,12 +276,14 @@ class KeepNotes {
         });
 
         // Modal Label Toggle
-        document.getElementById('modalLabelBtn').addEventListener('click', (e) => {
+        this.safeAddEventListener('modalLabelBtn', 'click', (e) => {
             e.stopPropagation();
             const options = document.getElementById('modalLabelOptions');
-            const isActive = options.style.display === 'block';
-            options.style.display = isActive ? 'none' : 'block';
-            if (!isActive) this.renderModalLabelOptions();
+            if (options) {
+                const isActive = options.style.display === 'block';
+                options.style.display = isActive ? 'none' : 'block';
+                if (!isActive) this.renderModalLabelOptions();
+            }
         });
 
         // Close label options when clicking outside
@@ -278,12 +295,12 @@ class KeepNotes {
         });
 
         // Context Menu Handlers
-        document.getElementById('renameLabelBtn').addEventListener('click', () => {
+        this.safeAddEventListener('renameLabelBtn', 'click', () => {
             if (this.labelMenuContextId) this.renameLabel(this.labelMenuContextId);
             this.hideLabelContextMenu();
         });
 
-        document.getElementById('deleteLabelBtn').addEventListener('click', () => {
+        this.safeAddEventListener('deleteLabelBtn', 'click', () => {
             if (this.labelMenuContextId) this.deleteLabel(this.labelMenuContextId);
             this.hideLabelContextMenu();
         });
@@ -300,14 +317,14 @@ class KeepNotes {
             const modalContent = document.querySelector('.modal-content');
 
             // 1. New note click away
-            if (input.classList.contains('expanded') && !input.contains(e.target) && !modal.contains(e.target)) {
+            if (input && input.classList.contains('expanded') && !input.contains(e.target) && !modal?.contains(e.target)) {
                 this.saveNewNote();
             }
         });
 
         // Modal Input Listeners for Auto-save & Counter
-        document.getElementById('modalNoteTitle').addEventListener('input', () => this.autoSaveModal());
-        document.getElementById('modalNoteContent').addEventListener('input', (e) => {
+        this.safeAddEventListener('modalNoteTitle', 'input', () => this.autoSaveModal());
+        this.safeAddEventListener('modalNoteContent', 'input', (e) => {
             this.updateCharCounterExcludingImages(e.target.value, 'modalCharCounter');
             this.autoSaveModal();
         });
@@ -318,8 +335,8 @@ class KeepNotes {
     // ========================================================================
 
     async saveNewNote() {
-        const title = document.getElementById('noteTitle').value.trim();
-        const content = document.getElementById('noteContent').value.trim();
+        const title = document.getElementById('noteTitle')?.value.trim() || '';
+        const content = document.getElementById('noteContent')?.value.trim() || '';
 
         if (!title && !content) {
             this.closeNoteInput();
@@ -347,9 +364,13 @@ class KeepNotes {
     }
 
     closeNoteInput() {
-        document.getElementById('noteInput').classList.remove('expanded');
-        document.getElementById('noteTitle').value = '';
-        document.getElementById('noteContent').value = '';
+        const input = document.getElementById('noteInput');
+        const title = document.getElementById('noteTitle');
+        const content = document.getElementById('noteContent');
+
+        input?.classList.remove('expanded');
+        if (title) title.value = '';
+        if (content) content.value = '';
         this.currentNoteColor = 'default';
         this.updateCharCounter(0, 'charCounter');
     }
@@ -381,8 +402,10 @@ class KeepNotes {
 
         // Update UI if in modal
         const pinBtn = document.getElementById('pinNoteBtn');
-        if (note.pinned) pinBtn.classList.add('active');
-        else pinBtn.classList.remove('active');
+        if (pinBtn) {
+            if (note.pinned) pinBtn.classList.add('active');
+            else pinBtn.classList.remove('active');
+        }
     }
 
     async toggleArchive(noteId) {
@@ -402,7 +425,9 @@ class KeepNotes {
         await this.saveNote(note);
 
         const modalContent = document.querySelector('.modal-content');
-        modalContent.style.background = `var(--note-bg-${color})`;
+        if (modalContent) {
+            modalContent.style.background = `var(--note-bg-${color})`;
+        }
         this.renderNotes();
     }
 
@@ -422,6 +447,11 @@ class KeepNotes {
         const pinnedContainer = document.getElementById('pinnedNotes');
         const otherContainer = document.getElementById('otherNotes');
         const emptyState = document.getElementById('emptyState');
+
+        if (!pinnedContainer || !otherContainer || !emptyState) {
+            console.error('Required DOM elements not found');
+            return;
+        }
 
         pinnedContainer.innerHTML = '';
         otherContainer.innerHTML = '';
@@ -453,22 +483,26 @@ class KeepNotes {
 
         if (filteredNotes.length === 0) {
             emptyState.classList.add('visible');
-            document.getElementById('pinnedSection').style.display = 'none';
-            document.getElementById('otherSection').style.display = 'none';
+            const pinnedSection = document.getElementById('pinnedSection');
+            const otherSection = document.getElementById('otherSection');
+            if (pinnedSection) pinnedSection.style.display = 'none';
+            if (otherSection) otherSection.style.display = 'none';
         } else {
             emptyState.classList.remove('visible');
 
             // Render pinned notes (usually small number)
-            if (pinned.length > 0) {
-                document.getElementById('pinnedSection').style.display = 'block';
+            const pinnedSection = document.getElementById('pinnedSection');
+            if (pinned.length > 0 && pinnedSection) {
+                pinnedSection.style.display = 'block';
                 pinned.forEach(n => pinnedContainer.appendChild(this.createNoteCard(n)));
-            } else {
-                document.getElementById('pinnedSection').style.display = 'none';
+            } else if (pinnedSection) {
+                pinnedSection.style.display = 'none';
             }
 
             // Render other notes with pagination to prevent browser freeze
-            if (others.length > 0) {
-                document.getElementById('otherSection').style.display = 'block';
+            const otherSection = document.getElementById('otherSection');
+            if (others.length > 0 && otherSection) {
+                otherSection.style.display = 'block';
 
                 const INITIAL_RENDER_COUNT = 200;
                 const toRender = others.slice(0, INITIAL_RENDER_COUNT);
@@ -496,8 +530,8 @@ class KeepNotes {
 
                     otherContainer.appendChild(loadMoreBtn);
                 }
-            } else {
-                document.getElementById('otherSection').style.display = 'none';
+            } else if (otherSection) {
+                otherSection.style.display = 'none';
             }
         }
     }
@@ -531,8 +565,10 @@ class KeepNotes {
         `;
 
         if (note.inTrash) {
-            card.querySelector('.restore-btn').onclick = (e) => { e.stopPropagation(); this.restoreNote(note.id); };
-            card.querySelector('.delete-perm-btn').onclick = (e) => { e.stopPropagation(); if (confirm('영구 삭제하시겠습니까?')) this.deleteNote(note.id); };
+            const restoreBtn = card.querySelector('.restore-btn');
+            const deleteBtn = card.querySelector('.delete-perm-btn');
+            if (restoreBtn) restoreBtn.onclick = (e) => { e.stopPropagation(); this.restoreNote(note.id); };
+            if (deleteBtn) deleteBtn.onclick = (e) => { e.stopPropagation(); if (confirm('영구 삭제하시겠습니까?')) this.deleteNote(note.id); };
         }
 
         card.onclick = () => this.openNote(note.id);
@@ -560,6 +596,11 @@ class KeepNotes {
         const contentInput = document.getElementById('modalNoteContent');
         const previewDiv = document.getElementById('modalNotePreview');
 
+        if (!modal || !titleInput || !contentInput || !previewDiv) {
+            console.error('Modal elements not found');
+            return;
+        }
+
         titleInput.value = note.title || '';
         contentInput.value = note.content || '';
 
@@ -569,11 +610,15 @@ class KeepNotes {
         modal.classList.remove('edit-mode');
 
         const modalContent = document.querySelector('.modal-content');
-        modalContent.style.background = `var(--note-bg-${this.currentNoteColor})`;
+        if (modalContent) {
+            modalContent.style.background = `var(--note-bg-${this.currentNoteColor})`;
+        }
 
         const pinBtn = document.getElementById('pinNoteBtn');
-        if (note.pinned) pinBtn.classList.add('active');
-        else pinBtn.classList.remove('active');
+        if (pinBtn) {
+            if (note.pinned) pinBtn.classList.add('active');
+            else pinBtn.classList.remove('active');
+        }
 
         modal.classList.add('active');
     }
@@ -582,7 +627,8 @@ class KeepNotes {
         if (this.editingNoteId) {
             await this.autoSaveModal();
         }
-        document.getElementById('noteModal').classList.remove('active');
+        const modal = document.getElementById('noteModal');
+        if (modal) modal.classList.remove('active');
         this.editingNoteId = null;
         this.renderNotes();
     }
@@ -592,8 +638,13 @@ class KeepNotes {
         const note = this.notes.find(n => n.id === this.editingNoteId);
         if (!note) return;
 
-        const newTitle = document.getElementById('modalNoteTitle').value;
-        const newContent = document.getElementById('modalNoteContent').value;
+        const titleInput = document.getElementById('modalNoteTitle');
+        const contentInput = document.getElementById('modalNoteContent');
+
+        if (!titleInput || !contentInput) return;
+
+        const newTitle = titleInput.value;
+        const newContent = contentInput.value;
 
         // Only save if there's a change
         if (note.title !== newTitle || note.content !== newContent) {
@@ -699,9 +750,11 @@ class KeepNotes {
         // Exclude both base64 and relative media paths from char count
         const count = content.replace(/!\[.*?\]\(data:image\/[^)]+\)/g, '![img]').replace(/!\[.*?\]\(media\/[^)]+\)/g, '![img]').length;
         const el = document.getElementById(id);
-        el.textContent = `${count.toLocaleString()} / 40,000`;
-        if (count > 38000) el.classList.add('warning');
-        else el.classList.remove('warning');
+        if (el) {
+            el.textContent = `${count.toLocaleString()} / 40,000`;
+            if (count > 38000) el.classList.add('warning');
+            else el.classList.remove('warning');
+        }
     }
 
     async updateFolderStatus(connected) {
@@ -761,7 +814,8 @@ class KeepNotes {
     }
 
     updateCharCounter(count, id) {
-        document.getElementById(id).textContent = `${count} / 40,000`;
+        const el = document.getElementById(id);
+        if (el) el.textContent = `${count} / 40,000`;
     }
 
     toggleDarkMode() {
@@ -793,6 +847,8 @@ class KeepNotes {
 
     renderLabels() {
         const list = document.getElementById('labelsList');
+        if (!list) return;
+
         list.innerHTML = '';
         const sortedLabels = [...this.labels].sort((a, b) => a.name.localeCompare(b.name));
 
@@ -830,9 +886,11 @@ class KeepNotes {
     showLabelContextMenu(id, x, y) {
         this.labelMenuContextId = id;
         const menu = document.getElementById('labelContextMenu');
-        menu.style.display = 'block';
-        menu.style.left = `${x}px`;
-        menu.style.top = `${y}px`;
+        if (menu) {
+            menu.style.display = 'block';
+            menu.style.left = `${x}px`;
+            menu.style.top = `${y}px`;
+        }
     }
 
     hideLabelContextMenu() {
@@ -903,6 +961,8 @@ class KeepNotes {
         const tx = document.getElementById('modalNoteContent');
         const pv = document.getElementById('modalNotePreview');
 
+        if (!modal || !tx || !pv) return;
+
         if (modal.classList.contains('preview-mode')) {
             // Switch to edit mode
             modal.classList.remove('preview-mode');
@@ -916,7 +976,22 @@ class KeepNotes {
         }
     }
 
+    insertChecklistItem(textareaId) {
+        const textarea = document.getElementById(textareaId);
+        if (!textarea) return;
+
+        const pos = textarea.selectionStart;
+        const before = textarea.value.substring(0, pos);
+        const after = textarea.value.substring(pos);
+        textarea.value = before + '\n- [ ] ' + after;
+        textarea.selectionStart = textarea.selectionEnd = pos + 7;
+        textarea.focus();
+        textarea.dispatchEvent(new Event('input'));
+    }
+
     handleImageUpload(file) {
+        if (!file) return;
+
         const ext = file.name.split('.').pop() || 'png';
         const filename = `media_${Date.now()}.${ext}`;
         const reader = new FileReader();
@@ -967,15 +1042,18 @@ class KeepNotes {
             // 3. Insert Markdown link
             const md = `\n![image](media/${filename})\n`;
             const tx = document.getElementById(this.editingNoteId ? 'modalNoteContent' : 'noteContent');
-            const pos = tx.selectionStart;
-            tx.value = tx.value.substring(0, pos) + md + tx.value.substring(pos);
-            tx.dispatchEvent(new Event('input'));
+            if (tx) {
+                const pos = tx.selectionStart;
+                tx.value = tx.value.substring(0, pos) + md + tx.value.substring(pos);
+                tx.dispatchEvent(new Event('input'));
 
-            // Force re-render preview if visible
-            if (this.editingNoteId) {
-                const preview = document.getElementById('modalNotePreview');
-                if (preview && document.getElementById('noteModal').classList.contains('preview-mode')) {
-                    preview.innerHTML = DOMPurify.sanitize(marked.parse(tx.value));
+                // Force re-render preview if visible
+                if (this.editingNoteId) {
+                    const preview = document.getElementById('modalNotePreview');
+                    const modal = document.getElementById('noteModal');
+                    if (preview && modal && modal.classList.contains('preview-mode')) {
+                        preview.innerHTML = DOMPurify.sanitize(marked.parse(tx.value));
+                    }
                 }
             }
         };
@@ -1005,16 +1083,19 @@ class KeepNotes {
                 <label for="label-${label.id}">${label.name}</label>
             `;
 
-            div.querySelector('input').addEventListener('change', (e) => {
-                if (!note.labels) note.labels = [];
-                if (e.target.checked) {
-                    if (!note.labels.includes(label.id)) note.labels.push(label.id);
-                } else {
-                    note.labels = note.labels.filter(id => id !== label.id);
-                }
-                note.updatedAt = new Date().toISOString();
-                this.saveNote(note);
-            });
+            const checkbox = div.querySelector('input');
+            if (checkbox) {
+                checkbox.addEventListener('change', (e) => {
+                    if (!note.labels) note.labels = [];
+                    if (e.target.checked) {
+                        if (!note.labels.includes(label.id)) note.labels.push(label.id);
+                    } else {
+                        note.labels = note.labels.filter(id => id !== label.id);
+                    }
+                    note.updatedAt = new Date().toISOString();
+                    this.saveNote(note);
+                });
+            }
 
             container.appendChild(div);
         });
@@ -1029,6 +1110,8 @@ class KeepNotes {
     }
 
     async importNotes(file) {
+        if (!file) return;
+
         const reader = new FileReader();
         reader.onload = async (e) => {
             try {
@@ -1089,9 +1172,13 @@ class KeepNotes {
         const term = q.toLowerCase();
         const filtered = this.notes.filter(n => !n.inTrash && (n.title.toLowerCase().includes(term) || n.content.toLowerCase().includes(term)));
         const grid = document.getElementById('otherNotes');
+        if (!grid) return;
+
         grid.innerHTML = '';
-        document.getElementById('pinnedSection').style.display = 'none';
-        document.getElementById('otherSection').style.display = 'block';
+        const pinnedSection = document.getElementById('pinnedSection');
+        const otherSection = document.getElementById('otherSection');
+        if (pinnedSection) pinnedSection.style.display = 'none';
+        if (otherSection) otherSection.style.display = 'block';
         filtered.forEach(n => grid.appendChild(this.createNoteCard(n)));
     }
 }
