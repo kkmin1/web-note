@@ -1,7 +1,7 @@
 {
   "id": "1770253492156",
   "title": "",
-  "content": "$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$ \\\\",
+  "content": "$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$ \\\\\n\n원의 방정식은 \\(x^2+y^2=1\\) 입니다.",
   "color": "default",
   "labels": [],
   "pinned": false,
@@ -9,5 +9,5 @@
   "inTrash": false,
   "reminder": null,
   "createdAt": "2026-02-05T01:04:52.156Z",
-  "updatedAt": "2026-02-05T01:04:52.156Z"
+  "updatedAt": "2026-02-05T01:05:12.346Z"
 }
