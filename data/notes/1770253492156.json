@@ -1,7 +1,7 @@
 {
   "id": "1770253492156",
   "title": "",
-  "content": "$$x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}$$ \n\n원의 방정식은 \\(x^2+y^2=1\\) 입니다.\n\n$x^2+y^2=1$",
+  "content": "# Hello World\n\nThis is a **Premium** Markdown Editor.\n\n## Features\n- Real-time preview\n- Syntax highlighting\n- Glassmorphism effect\n- LaTeX support ( $E = mc^2$ )\n<br>\n\n**니콜라스 마두로(Nicolás Maduro)** 정권은 미국과 대립 중이었고, 미국은 마두로를 불법적인 독재자로 규정하면서 제재와 외교적 압박을 가하고 있었습니다. 2019년에는 미국과 여러 서방국가가 **후안 과이도(Juan Guaidó)**를 베네수엘라의 합법적 대통령으로 인정하면서 권력 충돌이 이어지고 있었죠.\n\n나는 <strong>학교</strong>에 간다.\n\n<b>굵게</b>  \n<i>기울임</i>  \n<mark>형광펜 효과</mark>  \n나는 <span style=\"color:red\">빨간 글자</span>를 좋아한다.  \n\n###  링크, 이미지\n구글 홈페이지: https://google.com\n\n![그림1](test.jpg)\n\n![그림2](http://www.gstatic.com/webp/gallery/5.jpg)\n\n## LaTeX 수식 Example\nInline math: $f(x) = \\int_{-\\infty}^\\infty \\hat{f}(\\xi) e^{2\\pi i \\xi x} d\\xi$\n<br>\nBlock math: $$f(x) = \\int_{-\\infty}^\\infty \\hat{f}(\\xi) e^{2\\pi i \\xi x} d\\xi$$\n\n행렬:\n\n\\begin{bmatrix}\na & b \\\\\nc & d\n\\end{bmatrix}\n\n\\begin{cases}\n-x,\\;if\\;x<0 \\\\\\\\\n+x,\\;if\\;x\\geq0\n\\end{cases}\n\n\n```javascript\nfunction greet() {\n  console.log(\"Hello from Nova!\");\n}\n```\n<br>\n\n#### 용의자의 딜레마\n| 갑/을 | 협조 | 배신 |\n|---|---|---|\n| **협조** | -1,-1 | -9,0 |\n| **배신** | 0,-9 | -5,-5 |",
   "color": "default",
   "labels": [],
   "pinned": false,
@@ -9,5 +9,5 @@
   "inTrash": false,
   "reminder": null,
   "createdAt": "2026-02-05T01:04:52.156Z",
-  "updatedAt": "2026-02-05T01:05:46.303Z"
+  "updatedAt": "2026-02-07T05:12:39.557Z"
 }
